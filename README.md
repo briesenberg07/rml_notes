@@ -4,7 +4,7 @@
 
 ## 4rdardf - test mappings and test data
 | description/comments | test map | test output |
-|---|---|---|---|
+|---|---|---|
 | Triple with prop X, IRI value | [rda2bf_rml_001.ttl](4rdardf/rda2bf_rml_001.ttl) | [bf_data_002.ttl](4rdardf/bf_data_002.ttl) |
 | Triple with prop X, literal value | [rda2bf_rml_002.ttl](4rdardf/rda2bf_rml_002.ttl) | [bf_data_002.ttl](4rdardf/bf_data_002.ttl) |
 | Triple with prop X, IRI value *and* prop X, literal value | [rda_data_003.ttl](4rdardf/rda_data_003.ttl)| [bf_data_003.ttl](4rdardf/bf_data_003.ttl) |
