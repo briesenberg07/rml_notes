@@ -42,7 +42,9 @@
     ns1:P30169 "24 cm"@zxx ;
     ns1:P30176 "Destinworld Publishing"@eng ;
     ns1:P30182 "103 pages"@eng ;
+    # it's now officially bad data (the Manifestation doesn't really have multiple base materials)
     ns1:P30208 <http://rdaregistry.info/termList/RDAMaterial/1025> ;
+    ns1:P30208 "a different base material--not paper!"@en ;
     ns5:P30004 "ISBN 978-0-9930950-4-7" ;
     ns4:hasResourceTemplate "WAU:RT:RDA:Manifestation:monograph" ;
     ns2:hasLcClassificationPartA "TL603"@eng ;
