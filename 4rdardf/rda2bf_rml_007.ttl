@@ -38,7 +38,7 @@ ex:ContributionMap a rr:TriplesMap ;
   ] ;
   rr:subjectMap [
     # no reference needed here, I believe
-    rr:termtype rr:BlankNode ;
+    rr:termType rr:BlankNode ;
     rr:class bf:Contribution
   ] ;
   # for p20330 = literal, need to create another bnode for the agent
