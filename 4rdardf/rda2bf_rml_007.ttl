@@ -24,6 +24,9 @@ ex:ExampleMap a rr:TriplesMap ;
   rr:predicateObjectMap [
     rr:predicate bf:contribution ;
     rr:objectMap [
+      # currently creating only one Contribution bnode, need to create multiple...
+      # is this where the problem is?
+      rr:reference "P20330" ;
       rr:parentTriplesMap ex:ContributionMap ;
       rr:termType rr:BlankNode
     ]
@@ -33,19 +36,20 @@ ex:ContributionMap a rr:TriplesMap ;
   rml:logicalSource [
     rml:source "22909bd1-6249-400e-9b5a-3a46895698a2.xml" ;
     rml:referenceFormulation ql:XPath ;
-    # my iterators were wrong--they included the Pnumber as part of the path, but should have been a predicate??
+    # possible to rework this same ContributionMap for use with P20045?
     rml:iterator "RDF/Description[P20330]"
   ] ;
+  # is this where the problem is??
   rr:subjectMap [
-    # no reference needed here, I believe
+    rr:reference "P20330" ;
     rr:termType rr:BlankNode ;
     rr:class bf:Contribution
   ] ;
-  # for p20330 = literal, need to create another bnode for the agent
+  # for p20330 = literal, create another bnode for the agent in ex:AgentMap
   rr:predicateObjectMap [
     rr:predicate bf:agent ;
     rr:objectMap [
-      # was the 'rml:reference "P20330[not(@resource)]" ;' messing this up?? Didn't seem to make a difference!
+      rr:reference "P20330[not(@resource)]" ;
       rr:parentTriplesMap ex:AgentMap ;
       rr:termType rr:BlankNode
     ]
@@ -53,8 +57,6 @@ ex:ContributionMap a rr:TriplesMap ;
   # for p20330 = IRI, no need to create another bnode, use IRI as value for bf:agent
   rr:predicateObjectMap [
     rr:predicate bf:agent ;
-    # tried the rr:object 'shortcut'
-    # but perhaps I need to use objectMap so that I can use rml:reference with XPath to specify an IRI value
     rr:objectMap [
       rml:reference "P20330/@resource" ;
       rr:termType rr:IRI
@@ -66,10 +68,11 @@ ex:AgentMap a rr:TriplesMap ;
     rml:referenceFormulation ql:XPath ;
     # my iterators were wrong--they included the Pnumber as part of the path, but should have been a predicate??
     # was using 'rml:iterator "RDF/Description[P20330[not(@resource)]]"' but I'll specify not(@resource in the objectMap's reference...)
-    rml:iterator "RDF/Description[P20330]"
+    rml:iterator "RDF/Description[P20330[not(@resource)]]"
   ] ;
   rr:subjectMap [
     rr:termType rr:BlankNode ;
+    rr:reference "P20030[not(@resource)]" ;
     rr:class bf:Agent
   ] ;
   rr:predicateObjectMap [
