@@ -6,7 +6,13 @@
   bf:contribution _:0 .
 
 _:0 a bf:Contribution;
+  # OK here is where we want the change to begin...should be
+  # bf:agent <> ;
+  # bf:agent _:2 ;
+  # bf:agent _:3 ;
+  # bf:agent _:4 .
   bf:agent <http://id.loc.gov/rwo/agents/no2017164190>, _:1 .
 
+# following on above, should be multiple agent bnodes with labels
 _:1 a bf:Agent;
   rdfs:label "Fiscella, John", "Moushabeck, Michel", "Moushabek, Ruth Lane" .

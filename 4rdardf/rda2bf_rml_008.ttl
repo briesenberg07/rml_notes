@@ -29,3 +29,5 @@ ex:ExampleMap a rr:TriplesMap ;
       rr:termType rr:BlankNode
     ]
   ] .
+# incomplete map--obviously--but running to see what happens
+# see rml_notes issue #2
