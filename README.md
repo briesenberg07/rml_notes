@@ -2,18 +2,6 @@
 - I should really read [the spec](https://rml.io/specs/rml/)
 - Reading tutorial maps from Melissa from [09-21](https://github.com/uwlib-cams/rml/tree/master/getting_started/2021-09-21-demo) and [10-12](https://github.com/uwlib-cams/rml/tree/master/getting_started/2021-10-12-demo)
 
-## 4rdardf - test mappings and test data
-| description/comments | test map | test output |
-|---|---|---|
-| Triple with prop X, IRI value | [rda2bf_rml_001.ttl](4rdardf/rda2bf_rml_001.ttl) | [bf_data_002.ttl](4rdardf/bf_data_002.ttl) |
-| Triple with prop X, literal value | [rda2bf_rml_002.ttl](4rdardf/rda2bf_rml_002.ttl) | [bf_data_002.ttl](4rdardf/bf_data_002.ttl) |
-| Triple with prop X, IRI value *and* prop X, literal value | [rda_data_003.ttl](4rdardf/rda_data_003.ttl)| [bf_data_003.ttl](4rdardf/bf_data_003.ttl) |
-| Doing things with a full rdac:Manifestation record; did a bit more with [the `rml:iterator` value](https://github.com/briesenberg07/libraryNotes/blob/977fa33d379eebf7f316c348f6a6640c4e6ec573/rml/rda2bf_rml_004.ttl#L23) to avoid specifying only one resource to convert | [rda2bf_rml_004.ttl](4rdardf/rda2bf_rml_004.ttl) | [bf_data_004.ttl](4rdardf/bf_data_004.ttl) |
-| One (1) TriplesMap with two (2) predicateObjectMap statements; `ex:PublicationMap` has [two `rr:predicateObjectMap` statements](https://github.com/briesenberg07/libraryNotes/blob/977fa33d379eebf7f316c348f6a6640c4e6ec573/rml/rda2bf_rml_005.ttl#L56-L70) | [rda2bf_rml_005.ttl](4rdardf/rda2bf_rml_005.ttl) | [bf_data_005.ttl](4rdardf/bf_data_005.ttl) |
-| How much can I do with *just one* logical source? [[2](#notes)]  | [rda2bf_rml_006.ttl](4rdardf/rda2bf_rml_006.ttl) | [bf_data_006.ttl](4rdardf/bf_data_006.ttl) |
-| [LEVEL 5 [!!]](https://github.com/uwlib-cams/rml/tree/master/getting_started/practice_data) practice data from MCM | [rda2bf_rml_007.ttl](4rdardf/rda2bf_rml_007.ttl) | 😠 |
-| try another LEVEL 5er | [rda2bf_rml_008.ttl](4rdardf/rda2bf_rml_008.ttl) | ... |
-
 ## running mapper
 Running from the directory containing *both* the map `rda2bf_rml.ttl` and the logical source `rda_data.rdf`  
 ```
