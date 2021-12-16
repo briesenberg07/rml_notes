@@ -12,3 +12,6 @@
 
 ## notes
 [1] It's kind of a trick question. What I think of as the "main" map (the map for an RDA Manifestation, which in a full mapping would--I think--have many many predicateObjectMap statements) has, of course, only one logical source. But every new, distinct TriplesMap--that is, every distinct TriplesMap which will be referenced in a predicateObjectMap in the "main" map and defined outside of that "main" map, must of course also have a logical source.
+## tangential thoughts about mapping `rdaa:`, `rdap:`, other RDA/RDF properties to BF
+For RDA Agent, Place props, and other RDA-entity props, I had assumed that I'd be finding equivalent properties in the BF ontology. But I really hadn't thought this through.   
+There *are* no BF props with domain `bf:Agent`, or with domain `bf:Place`...

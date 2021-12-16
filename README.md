@@ -27,7 +27,3 @@ $ java -jar ~/mappertarget/mapper-all.jar -m rda2bf_rml.ttl -o bf_data.ttl -s tu
 $ java -jar ~/mappertarget/mapper-all.jar -m rda2bf_rml.ttl -s turtle -o bf_data.ttl
 17:47:48.837 [main] ERROR be.ugent.rml.cli.Main               .main(367) - Not a valid (absolute) IRI:
 ```
-
-### tangential thoughts about mapping `rdaa:`, `rdap:`, other RDA/RDF properties to BF
-For RDA Agent, Place props, and other RDA-entity props, I had assumed that I'd be finding equivalent properties in the BF ontology. But I really hadn't thought this through.   
-There *are* no BF props with domain `bf:Agent`, or with domain `bf:Place`...
