@@ -1,0 +1,31 @@
+# rml prefixes
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+# other prefixes
+@prefix ex: <http://example.org/>.
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/>.
+@prefix rdae: <http://rdaregistry.info/Elements/e/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+# Mapping cf9aaa08-ae28-465c-85c3-75cc4584f182.xml RDA/RDF to BF
+
+ex:ExampleMap a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "cf9aaa08-ae28-465c-85c3-75cc4584f182.xml" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "RDF/Description[starts-with(@about, 'https://api.sinopia.io/resource/')]"
+  ] ;
+  rr:subjectMap [
+    rml:reference "@about" ;
+    rr:class bf:Work
+  ] ;
+  rr:predicateObjectMap [
+  rr:predicate bf:contribution ;
+    rr:objectMap [
+      rr:reference "P20012" ;
+      rr:parentTriplesMap ex:ContributionMap ;
+      rr:termType rr:BlankNode
+    ]
+  ] .
