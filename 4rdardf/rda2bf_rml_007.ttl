@@ -15,7 +15,8 @@ ex:ExampleMap a rr:TriplesMap ;
     rml:source "22909bd1-6249-400e-9b5a-3a46895698a2.xml" ;
     rml:referenceFormulation ql:XPath ;
     # Does MCM start her XPath with '/'?
-    rml:iterator "RDF/Description[starts-with(@about, 'https://api.sinopia.io/resource/')]" # no rdf:type given in this practice file
+    # no rdf:type given in this practice file
+    rml:iterator "RDF/Description[starts-with(@about, 'https://api.sinopia.io/resource/')]"
   ] ;
   rr:subjectMap [
     rml:reference "@about" ;
@@ -24,13 +25,12 @@ ex:ExampleMap a rr:TriplesMap ;
   rr:predicateObjectMap [
     rr:predicate bf:contribution ;
     rr:objectMap [
-      # currently creating only one Contribution bnode, need to create multiple...
-      # is this where the problem is?
       rr:reference "P20330" ;
       rr:parentTriplesMap ex:ContributionMap ;
       rr:termType rr:BlankNode
     ]
   ] .
+
 ex:ContributionMap a rr:TriplesMap ;
   # repeat logical source for each rr:TriplesMap, right?
   rml:logicalSource [
@@ -39,12 +39,12 @@ ex:ContributionMap a rr:TriplesMap ;
     # possible to rework this same ContributionMap for use with P20045?
     rml:iterator "RDF/Description[P20330]"
   ] ;
-  # is this where the problem is??
   rr:subjectMap [
     rr:reference "P20330" ;
     rr:termType rr:BlankNode ;
     rr:class bf:Contribution
   ] ;
+  # two kinds of agent values, two predicateObjectMaps
   # for p20330 = literal, create another bnode for the agent in ex:AgentMap
   rr:predicateObjectMap [
     rr:predicate bf:agent ;
@@ -62,24 +62,29 @@ ex:ContributionMap a rr:TriplesMap ;
       rr:termType rr:IRI
     ]
   ] .
+
 ex:AgentMap a rr:TriplesMap ;
   rml:logicalSource [
     rml:source "22909bd1-6249-400e-9b5a-3a46895698a2.xml" ;
     rml:referenceFormulation ql:XPath ;
-    # my iterators were wrong--they included the Pnumber as part of the path, but should have been a predicate??
-    # was using 'rml:iterator "RDF/Description[P20330[not(@resource)]]"' but I'll specify not(@resource in the objectMap's reference...)
-    rml:iterator "RDF/Description[P20330[not(@resource)]]"
+    # this iterator was pitching all P20330 values into the same agent node:
+    # rml:iterator "RDF/Description[P20330[not(@resource)]]"
+    # so I'll try:
+    rml:iterator "RDF/Description/P20330[not(@resource)]"
+    # it's just a slight difference! Will it make the needed change? Why!?
+    # I think I get it. Above was iterating on Description, this is iterating on *each* P20330...
   ] ;
   rr:subjectMap [
     rr:termType rr:BlankNode ;
-    rr:reference "P20030[not(@resource)]" ;
+    # is this the right change given L72?? Is this XPath relative to rml:iterator??
+    rml:reference "P20330" ;
     rr:class bf:Agent
   ] ;
   rr:predicateObjectMap [
     rr:predicate rdfs:label ;
-    # tried rr:object shortcut but now changing back to rr:objectMap...
     rr:objectMap [
-      rml:reference "P20330[not(@resource)]" ;
+      # is this the right change given L72?? Is this XPath relative to rml:iterator??
+      rml:reference "P20330" ;
       rr:termType rr:Literal
     ]
   ] .
