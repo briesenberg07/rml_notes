@@ -1,6 +1,7 @@
 # LEARNING RML
-- I should really read [the spec](https://rml.io/specs/rml/)
-- Reading tutorial maps from Melissa from [09-21](https://github.com/uwlib-cams/rml/tree/master/getting_started/2021-09-21-demo) and [10-12](https://github.com/uwlib-cams/rml/tree/master/getting_started/2021-10-12-demo)
+- [The spec](https://rml.io/specs/rml/), plus more and all kinds of RML-related projects at [rml.io](https://rml.io/)
+- [rmlmapper-java](https://github.com/RMLio/rmlmapper-java)
+- Tutorial maps from @mcm104 from [09-21](https://github.com/uwlib-cams/rml/tree/master/getting_started/2021-09-21-demo), [10-12](https://github.com/uwlib-cams/rml/tree/master/getting_started/2021-10-12-demo), etc.
 
 ## running mapper
 Running from the directory containing *both* the map `rda2bf_rml.ttl` and the logical source `rda_data.rdf`  
