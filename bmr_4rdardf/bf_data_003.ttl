@@ -1,0 +1,13 @@
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ex: <http://www.example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:aWork001 a bf:Work;
+  bf:replacedBy ex:aWork002, _:0 .
+
+_:0 a bf:Work;
+  rdfs:label "The Work to Replace Work 001" .
+
+ex:aWork003 a bf:Work;
+  bf:replacedBy _:0 .

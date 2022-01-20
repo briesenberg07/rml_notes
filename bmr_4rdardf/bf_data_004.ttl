@@ -1,0 +1,12 @@
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://api.sinopia.io/resource/a72da7e0-9f9d-402b-b1f0-d1acd14a18c7> a bf:Instance;
+  bf:provisionActivity _:0 .
+
+_:0 a bf:Publication;
+  bf:place _:1 .
+
+_:1 a bf:Place;
+  rdfs:label "Darlington, Co. Durham" .

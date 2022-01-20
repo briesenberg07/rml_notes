@@ -15,16 +15,16 @@ ex:ExampleMap a rr:TriplesMap ;
   rml:logicalSource [
     rml:source "cf9aaa08-ae28-465c-85c3-75cc4584f182.xml" ;
     rml:referenceFormulation ql:XPath ;
-    rml:iterator "RDF/Description[starts-with(@about, 'https://api.sinopia.io/resource/')]"
+    rml:iterator "rdf:RDF/rdf:Description[starts-with(@rdf:about, 'https://api.sinopia.io/resource/')]"
   ] ;
   rr:subjectMap [
-    rml:reference "@about" ;
+    rml:reference "@rdf:about" ;
     rr:class bf:Work
   ] ;
   rr:predicateObjectMap [
   rr:predicate bf:contribution ;
     rr:objectMap [
-      rr:reference "P20012" ;
+      rr:reference "rdae:P20012" ;
       rr:parentTriplesMap ex:ContributionMap ;
       rr:termType rr:BlankNode
     ]

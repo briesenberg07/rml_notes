@@ -1,0 +1,5 @@
+@prefix rdaw: <http://rdaregistry.info/Elements/w/> .
+
+<http://www.example.org/aWork001> a <http://rdaregistry.info/Elements/c/C10001> ;
+    rdaw:P10022 "The Work to Replace Work 001"@en .
+
