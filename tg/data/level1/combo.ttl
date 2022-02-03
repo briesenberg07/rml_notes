@@ -1,0 +1,65 @@
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tg: <http://bogusIRI.edu/bogus/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://api.sinopia.io/resource/2c54c399-b393-4c4c-a79c-9f2ac5a31b0b> a bf:Instance;
+  tg:agentToBlame "Stephenie Meyer"@eng;
+  tg:copyrightDate "©2005";
+  tg:edition "1st ed."@eng;
+  tg:publisherPlace "New York, New York : Little, Brown and Company, 2005"@eng;
+  tg:size "22 cm"@eng;
+  bf:seriesEnumeration 1;
+  bf:seriesStatement "Twilight Saga"@eng, "Twilight Saga ; 1"@eng .
+
+<https://api.sinopia.io/resource/37d584c2-5bc1-422b-bbbd-e1226c8e139e> a bf:Instance;
+  tg:agentToBlame "北京语言大学对外汉语教材研发中心编著"@chi, "插图绘制Loyal Kids"@chi, "文本撰写李晶晶"@chi, "英语翻译孙玉婷"@chi;
+  tg:edition "第1版"@chi;
+  tg:publisherPlace "北京市 : 北京语言大学出版社, 2019"@chi;
+  bf:seriesEnumeration "Di 2 ji"^^xsd:integer;
+  bf:seriesStatement "Han yu le yuan tong bu yue du"@eng, "汉语乐园同步阅读. 第2级"@eng .
+
+<https://api.sinopia.io/resource/3e8e8d5b-d6aa-4050-9470-8dc0f286fa94> a bf:Instance;
+  tg:agentToBlame "Presented by Mr. Brooks"@eng, "Revised and updated by Edward F. Willett"@eng;
+  tg:copyrightDate "© 1990";
+  tg:edition "Revised and updated by Edward F. Willett"@eng;
+  tg:publisherPlace """Washington, D.C. : United States Government Printing Office,
+      1990"""@eng;
+  tg:size "23 cm"@eng;
+  bf:seriesEnumeration "101-139"^^xsd:integer;
+  bf:seriesStatement """Document / 101st Congress, 2d session, House of Representatives ;
+      no. 101-139"""@eng,
+    "House document (United States. Congress. House)"@eng .
+
+<https://api.sinopia.io/resource/3f37d02f-464a-4d85-8604-ea6a6e8534ad> a bf:Instance;
+  tg:agentToBlame "Naṣr Ḥāmid Abū Zayd"@ara, "نصر حامد أبو زيد"@ara;
+  tg:edition "Raqm al-ṭabʻah: al-ūlá"@ara, "رقم الطبعة: الاولى"@ara;
+  tg:publisherPlace """al-Mamlakah al-Maghribīyah, al-Rabāṭ : Muʼminūn bi-lā Ḥudūd
+      lil-Dirāsāt wa-al-Abḥāth, 2017"""@ara,
+    """المملكة المغربية، الرباط : مؤمنون بلا حدود للدراسات والابحاث،
+      2017"""@ara;
+  tg:size "22 cm"@eng;
+  bf:seriesStatement "Silsilat kutub"@ara, "سلسلة كتب"@ara .
+
+<https://api.sinopia.io/resource/d6f8998a-594e-473f-8fbe-82211b02f1f1> a bf:Instance;
+  tg:agentToBlame "Fyodor Dostoevsky"@eng, "George Stade, consulting editorial director"@eng,
+    "notes by Elina Yuffa"@eng, "translated by Constance Garnett"@eng, "with an introduction by Joseph Frank"@eng;
+  tg:copyrightDate "©2004";
+  tg:publisherPlace "New York, NY : Barnes & Noble Classics, 2004."@eng;
+  tg:size "23 cm"@eng .
+
+<https://api.sinopia.io/resource/d7a26fa5-bcee-4a05-a5e5-966a6d2c7ce2> a bf:Instance;
+  tg:agentToBlame "Jules Verne"@eng, """translated with an introduction and notes by William
+      Butcher"""@eng;
+  tg:copyrightDate "©1995";
+  tg:size "20 cm"@eng;
+  bf:seriesStatement "Oxford world's classics"@eng, "The extraordinary journeys"@eng .
+
+<https://api.sinopia.io/resource/e8681ce8-c125-4640-9583-2404b7603e41> a bf:Instance;
+  tg:agentToBlame "Evgenia Cherkasova"@en, "with a foreword by George L. Kline"@en;
+  tg:copyrightDate "©2009";
+  tg:rdaAccessPoint "Cherkasova, Evgenia. Dostoevsky and Kant"@en;
+  tg:size "23 cm"@en;
+  bf:seriesEnumeration "volume 206"^^xsd:integer;
+  bf:seriesStatement "Andrew Fitz-Gibbon, editor"@en, "Value inquiry book series"@en,
+    "social philosophy"@en .

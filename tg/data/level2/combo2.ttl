@@ -1,0 +1,96 @@
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://api.sinopia.io/resource/28c01f9f-2502-4488-a144-71a31f21d0d4> a bf:Instance ;
+    bf:extent [ a bf:Extent ;
+            rdfs:label "volumes" ] ;
+    bf:note [ a bf:Note ;
+            rdfs:label "1. кн. Прозо -- Кокымшо книга. Поэзий, драматургий." ] ;
+    bf:title [ a bf:Title ;
+            bf:subtitle "11 класслан хрестоматий" ],
+        [ a bf:Title ;
+            bf:mainTitle "Кызытсе марий литератур" ],
+        [ a bf:VariantTitle ;
+            bf:mainTitle "Sovremennai︠a︡ mariĭskai︠a︡ literatura",
+                "Современная марийская литература" ] .
+
+<https://api.sinopia.io/resource/6ffa79a8-94a8-4d01-b5c2-b7e7ef6f0b74> a bf:Instance ;
+    bf:extent [ a bf:Extent ;
+            rdfs:label "39 pages" ] ;
+    bf:title [ a bf:ParallelTitle ;
+            bf:mainTitle "Lailah ṭov",
+                "לילה טוב" ],
+        [ a bf:Title ;
+            bf:mainTitle "The Bedtime Sh'ma" ],
+        [ a bf:VariantTitle ;
+            bf:mainTitle "Lailah ṭov : Ḳeriʼat Shemaʻ ʻal ha-miṭah",
+                "לילה טוב : קריאת שמע על המטה" ],
+        [ a bf:Title ;
+            bf:subtitle "a good night book" ],
+        [ a bf:ParallelTitle ;
+            bf:subtitle "Ḳeriʼat Shemaʻ ʻal ha-miṭah",
+                "קריאת שמע על המטה" ] .
+
+<https://api.sinopia.io/resource/b117b54d-ba45-4cc1-98ec-2654e93b657a> a bf:Instance ;
+    bf:extent [ a bf:Extent ;
+            rdfs:label "vii, 175 pages" ] ;
+    bf:note [ a bf:Note ;
+            rdfs:label "\"December 5, 1989.\"",
+                "\"WMCP:101-19.\"",
+                """At head of title: 101st Congress, 1st session. Committee
+      print""",
+                "Item 1028-A, 1028-B (MF)",
+                "Shipping list no.: 90-079-P" ] ;
+    bf:title [ a bf:Title ;
+            bf:subtitle "policy and practice : a report" ],
+        [ a bf:Title ;
+            bf:mainTitle "The Child Support Enforcement program" ] .
+
+<https://api.sinopia.io/resource/c7718302-7c8d-424d-bc61-4cb134ce4e5e> a bf:Instance ;
+    bf:extent [ a bf:Extent ;
+            rdfs:label "v, 28 pages" ] ;
+    bf:note [ a bf:Note ;
+            rdfs:label "\"January 1990.\"",
+                "\"Serial no. 101-F.\"",
+                """At head of title: 101st Congress, 2d session. Committee
+      print.""",
+                """Distributed to some depository libraries in
+      microfiche.""",
+                "Item 1009-B-1, 1009-C-1 (MF).",
+                "Shipping list no.: 90-107-P." ] ;
+    bf:title [ a bf:Title ;
+            bf:subtitle """turning a bad deal into a fair deal : a majority staff report of the
+      Special Committee on Aging, United States Senate.""" ],
+        [ a bf:Title ;
+            bf:mainTitle "Skyrocketing prescription drug prices" ] .
+
+<https://api.sinopia.io/resource/d04328c3-db6a-4196-ab5b-22fe95309bf4> a bf:Instance ;
+    bf:extent [ a bf:Extent ;
+            rdfs:label "viii, 377 pages" ] ;
+    bf:hasItem [ a bf:Item ;
+            bf:electronicLocator "" ] ;
+    bf:note [ a bf:Note ;
+            rdfs:label "\"OTA-O-424\"--Page 4 of cover",
+                "\"October 1989\"--Page 4 of cover",
+                "S/N 052-003-01168-9",
+                "Shipping list no.: 1989-0742-P" ] ;
+    bf:title [ a bf:Title ;
+            bf:subtitle "what next for municipal solid waste?" ],
+        [ a bf:Title ;
+            bf:mainTitle "Facing America's trash" ] .
+
+<https://api.sinopia.io/resource/f0ff32b0-9818-4f67-886f-894004325962> a bf:Instance ;
+    bf:extent [ a bf:Extent ;
+            rdfs:label "vi, 142 pages" ] ;
+    bf:note [ a bf:Note ;
+            rdfs:label "\"October 1989.\"",
+                "\"Serial H.\"",
+                "At head ot title: Committee print",
+                "Item 1025-A-1, 1025-A-2 (MF)",
+                "Shipping list no.: 90-105-P" ] ;
+    bf:title [ a bf:Title ;
+            bf:subtitle """report to the Committee on Science, Space, and Technology, U.S.
+      House of Representatives, One Hundred First Congress, first session""" ],
+        [ a bf:Title ;
+            bf:mainTitle "Oversight visit to the Far East" ] .
+

@@ -1,0 +1,269 @@
+@prefix ex: <http://example.com/ns#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdam: <http://rdaregistry.info/Elements/w/>.
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/>.
+@prefix tg: <http://bogusIRI.edu/bogus/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+#NOT DONE: LANGUAGE MAPS/LANGUAGE TAGS
+
+ex:Practice2 a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level2/combo.xml" ;
+    rml:iterator "RDF/Description" ;
+    rml:referenceFormulation ql:XPath
+] ;
+rr:subjectMap [
+    rr:class bf:Instance ;
+    rml:reference "@about" 
+] ;
+#(1) rdam:P30156 has title proper, "bf:title [ a bf:Title ; bf:mainTitle ""P30156value"" ] ."
+rr:predicateObjectMap [
+    rr:predicate bf:title ;
+    rr:objectMap [
+       # rml:reference "RDF/Description[P30156]" ;
+        rr:termType rr:BlankNode ;
+        rr:parentTriplesMap ex:MainTitle ;
+        rr:joinCondition [
+            rr:child "P30156" ;
+            rr:parent "P30156"
+        ]
+    ]
+] ;
+#(2) rdam:P30182 hasExtentOfMan, "bf:extent [ a bf:Extent ; rdfs:label ""P30182value"" ] ."
+rr:predicateObjectMap [
+    rr:predicate bf:extent ;
+    rr:objectMap [
+        rr:termType rr:BlankNode ;
+        rr:parentTriplesMap ex:Extent ;
+        rr:joinCondition [
+            rr:child "P30182" ;
+            rr:parent "P30182"
+        ]
+    ]
+] ;
+#(3) rdam:P30128 hasVariantTitleOfMan, "bf:title [ a bf:VariantTitle ; bf:mainTitle ""P30128value"" ] ."
+rr:predicateObjectMap [
+    rr:predicate bf:title ;
+    rr:objectMap [
+        rr:termType rr:BlankNode ;
+        rr:parentTriplesMap ex:VariantTitle ;
+        rr:joinCondition [
+            rr:child "P30128" ;
+            rr:parent "P30128"
+        ]
+    ]
+] ;
+#(4) rdam:P30137 hasNoteOnMan, note >> Note > rdfs:label
+rr:predicateObjectMap [
+    rr:predicate bf:note ;
+    rr:objectMap [
+        rr:termType rr:BlankNode ;
+        rr:parentTriplesMap ex:Note ;
+        rr:joinCondition [
+            rr:child "P30137" ;
+            rr:parent "P30137"
+        ]
+    ]
+] ;
+#(5) rdam:P30142 hasOtherTitleInfo, title >> Title > subtitle
+rr:predicateObjectMap [
+    rr:predicate bf:title ;
+    rr:objectMap [
+        rr:termType rr:BlankNode ;
+        rr:parentTriplesMap ex:Subtitle ;
+        rr:joinCondition [
+            rr:child "P30142" ;
+            rr:parent "P30142"
+        ]
+    ]
+] ;
+#(6) rdam:P30151 hasParallelOtheritleInfo, title >> ParallelTitle > subtitle
+rr:predicateObjectMap [
+    rr:predicate bf:title ;
+    rr:objectMap [
+        rr:termType rr:BlankNode ;
+        rr:parentTriplesMap ex:ParallelSubtitle ;
+        rr:joinCondition [
+            rr:child "P30151" ;
+            rr:parent "P30151"
+        ]
+    ]
+] ;
+#(7) rdam:P30203 hasParallelTitleProper, title >> ParallelTitle > mainTitle
+rr:predicateObjectMap [
+    rr:predicate bf:title ;
+    rr:objectMap [
+        rr:termType rr:BlankNode ;
+        rr:parentTriplesMap ex:ParallelMainTitle ;
+        rr:joinCondition [
+            rr:child "P30203" ;
+            rr:parent "P30203"
+        ]
+    ]
+] ;
+#(8) rdam:P30154 hasURL, hasItem >> Item > electronicLocator*
+rr:predicateObjectMap [
+    rr:predicate bf:hasItem ;
+    rr:objectMap [
+        rr:termType rr:BlankNode ;
+        rr:parentTriplesMap ex:ElectronicLocator ;
+        rr:joinCondition [
+            rr:child "P30154" ;
+            rr:parent "P30154"
+        ]
+    ]
+] .
+#(9) rdax:hasLcClassificationPartA --> do not map
+#(10) rdax:hasLcClassificationPartB --> do not map
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+#(1) parentTriplesMap 1 
+ex:MainTitle a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level2/combo.xml" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "RDF/Description[P30156]"
+] ;
+rr:subjectMap [
+   # rml:reference "P30156" ;
+    rr:class bf:Title ;
+    rr:termType rr:BlankNode
+] ;
+rr:predicateObjectMap [
+    rr:predicate bf:mainTitle ;
+    rr:objectMap [
+        rml:reference "P30156" ;
+        rr:termType rr:Literal 
+    ]
+] .
+#(2) parentTriplesMap 2
+ex:Extent a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level2/combo.xml" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "RDF/Description[P30182]"
+] ;
+rr:subjectMap [
+    rr:class bf:Extent ;
+    rr:termType rr:BlankNode
+] ;
+rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [
+        rml:reference "P30182" ;
+        rr:termType rr:Literal 
+    ]
+] .
+#(3) parentTriplesMap 3
+ex:VariantTitle a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level2/combo.xml" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "RDF/Description[P30128]"
+] ;
+rr:subjectMap [
+    rr:class bf:VariantTitle ;
+    rr:termType rr:BlankNode
+] ;
+rr:predicateObjectMap [
+    rr:predicate bf:mainTitle ;
+    rr:objectMap [
+        rml:reference "P30128" ;
+        rr:termType rr:Literal 
+    ]
+] .
+#(4) parentTriplesMap 4
+ex:Note a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level2/combo.xml" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "RDF/Description[P30137]"
+] ;
+rr:subjectMap [
+    rr:class bf:Note ;
+    rr:termType rr:BlankNode
+] ;
+rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [
+        rml:reference "P30137" ;
+        rr:termType rr:Literal 
+    ]
+] .
+#(5) parentTriplesMap 5
+ex:Subtitle a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level2/combo.xml" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "RDF/Description[P30142]"
+] ;
+rr:subjectMap [
+    rr:class bf:Title ;
+    rr:termType rr:BlankNode
+] ;
+rr:predicateObjectMap [
+    rr:predicate bf:subtitle ;
+    rr:objectMap [
+        rml:reference "P30142" ;
+        rr:termType rr:Literal 
+    ]
+] .
+#(6) parentTriplesMap 6
+ex:ParallelSubtitle a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level2/combo.xml" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "RDF/Description[P30151]"
+] ;
+rr:subjectMap [
+    rr:class bf:ParallelTitle ;
+    rr:termType rr:BlankNode
+] ;
+rr:predicateObjectMap [
+    rr:predicate bf:subtitle ;
+    rr:objectMap [
+        rml:reference "P30151" ;
+        rr:termType rr:Literal 
+    ]
+] .
+#(7) parentTriplesMap 7
+ex:ParallelMainTitle a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level2/combo.xml" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "RDF/Description[P30203]"
+] ;
+rr:subjectMap [
+    rr:class bf:ParallelTitle ;
+    rr:termType rr:BlankNode
+] ;
+rr:predicateObjectMap [
+    rr:predicate bf:mainTitle ;
+    rr:objectMap [
+        rml:reference "P30203" ;
+        rr:termType rr:Literal 
+    ]
+] .
+#(8) parentTriplesMap 8
+ex:ElectronicLocator a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level2/combo.xml" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "RDF/Description[P30154]"
+] ;
+rr:subjectMap [
+    rr:class bf:Item ;
+    rr:termType rr:BlankNode
+] ;
+rr:predicateObjectMap [
+    rr:predicate bf:electronicLocator ;
+    rr:objectMap [
+        rml:reference "P30154" ;
+        rr:termType rr:Literal 
+    ]
+] .

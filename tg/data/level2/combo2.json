@@ -1,0 +1,526 @@
+[
+  {
+    "@id": "https://api.sinopia.io/resource/c7718302-7c8d-424d-bc61-4cb134ce4e5e",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Instance"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/extent": [
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b16"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe/note": [
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b17"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe/title": [
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b18"
+      },
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b19"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b17",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Note"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "At head of title: 101st Congress, 2d session. Committee\n      print."
+      },
+      {
+        "@value": "Distributed to some depository libraries in\n      microfiche."
+      },
+      {
+        "@value": "\"Serial no. 101-F.\""
+      },
+      {
+        "@value": "Item 1009-B-1, 1009-C-1 (MF)."
+      },
+      {
+        "@value": "\"January 1990.\""
+      },
+      {
+        "@value": "Shipping list no.: 90-107-P."
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b18",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Title"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/subtitle": [
+      {
+        "@value": "turning a bad deal into a fair deal : a majority staff report of the\n      Special Committee on Aging, United States Senate."
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b16",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Extent"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "v, 28 pages"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b19",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Title"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/mainTitle": [
+      {
+        "@value": "Skyrocketing prescription drug prices"
+      }
+    ]
+  },
+  {
+    "@id": "https://api.sinopia.io/resource/6ffa79a8-94a8-4d01-b5c2-b7e7ef6f0b74",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Instance"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/extent": [
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b6"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe/title": [
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b10"
+      },
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b11"
+      },
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b9"
+      },
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b7"
+      },
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b8"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b10",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/ParallelTitle"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/mainTitle": [
+      {
+        "@value": "Lailah ṭov"
+      },
+      {
+        "@value": "לילה טוב"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b11",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Title"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/mainTitle": [
+      {
+        "@value": "The Bedtime Sh'ma"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b9",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/ParallelTitle"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/subtitle": [
+      {
+        "@value": "קריאת שמע על המטה"
+      },
+      {
+        "@value": "Ḳeriʼat Shemaʻ ʻal ha-miṭah"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b7",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/VariantTitle"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/mainTitle": [
+      {
+        "@value": "לילה טוב : קריאת שמע על המטה"
+      },
+      {
+        "@value": "Lailah ṭov : Ḳeriʼat Shemaʻ ʻal ha-miṭah"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b6",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Extent"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "39 pages"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b8",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Title"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/subtitle": [
+      {
+        "@value": "a good night book"
+      }
+    ]
+  },
+  {
+    "@id": "https://api.sinopia.io/resource/28c01f9f-2502-4488-a144-71a31f21d0d4",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Instance"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/extent": [
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b1"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe/note": [
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b2"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe/title": [
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b5"
+      },
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b3"
+      },
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b5",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/VariantTitle"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/mainTitle": [
+      {
+        "@value": "Sovremennai︠a︡ mariĭskai︠a︡ literatura"
+      },
+      {
+        "@value": "Современная марийская литература"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b3",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Title"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/subtitle": [
+      {
+        "@value": "11 класслан хрестоматий"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b4",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Title"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/mainTitle": [
+      {
+        "@value": "Кызытсе марий литератур"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b1",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Extent"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "volumes"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b2",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Note"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "1. кн. Прозо -- Кокымшо книга. Поэзий, драматургий."
+      }
+    ]
+  },
+  {
+    "@id": "https://api.sinopia.io/resource/f0ff32b0-9818-4f67-886f-894004325962",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Instance"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/extent": [
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b25"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe/note": [
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b26"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe/title": [
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b28"
+      },
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b27"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b28",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Title"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/mainTitle": [
+      {
+        "@value": "Oversight visit to the Far East"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b25",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Extent"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "vi, 142 pages"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b26",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Note"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "\"Serial H.\""
+      },
+      {
+        "@value": "\"October 1989.\""
+      },
+      {
+        "@value": "Shipping list no.: 90-105-P"
+      },
+      {
+        "@value": "At head ot title: Committee print"
+      },
+      {
+        "@value": "Item 1025-A-1, 1025-A-2 (MF)"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b27",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Title"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/subtitle": [
+      {
+        "@value": "report to the Committee on Science, Space, and Technology, U.S.\n      House of Representatives, One Hundred First Congress, first session"
+      }
+    ]
+  },
+  {
+    "@id": "https://api.sinopia.io/resource/b117b54d-ba45-4cc1-98ec-2654e93b657a",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Instance"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/extent": [
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b12"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe/note": [
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b13"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe/title": [
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b15"
+      },
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b14"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b12",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Extent"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "vii, 175 pages"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b15",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Title"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/mainTitle": [
+      {
+        "@value": "The Child Support Enforcement program"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b13",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Note"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "\"December 5, 1989.\""
+      },
+      {
+        "@value": "Item 1028-A, 1028-B (MF)"
+      },
+      {
+        "@value": "At head of title: 101st Congress, 1st session. Committee\n      print"
+      },
+      {
+        "@value": "Shipping list no.: 90-079-P"
+      },
+      {
+        "@value": "\"WMCP:101-19.\""
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b14",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Title"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/subtitle": [
+      {
+        "@value": "policy and practice : a report"
+      }
+    ]
+  },
+  {
+    "@id": "https://api.sinopia.io/resource/d04328c3-db6a-4196-ab5b-22fe95309bf4",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Instance"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/extent": [
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b20"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe/hasItem": [
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b21"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe/note": [
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b22"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe/title": [
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b23"
+      },
+      {
+        "@id": "_:fbfa906df32d345878f03c36e72b129e3b24"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b23",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Title"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/subtitle": [
+      {
+        "@value": "what next for municipal solid waste?"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b21",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Item"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/electronicLocator": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b20",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Extent"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "viii, 377 pages"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b24",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Title"
+    ],
+    "http://id.loc.gov/ontologies/bibframe/mainTitle": [
+      {
+        "@value": "Facing America's trash"
+      }
+    ]
+  },
+  {
+    "@id": "_:fbfa906df32d345878f03c36e72b129e3b22",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe/Note"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "\"October 1989\"--Page 4 of cover"
+      },
+      {
+        "@value": "Shipping list no.: 1989-0742-P"
+      },
+      {
+        "@value": "\"OTA-O-424\"--Page 4 of cover"
+      },
+      {
+        "@value": "S/N 052-003-01168-9"
+      }
+    ]
+  }
+]

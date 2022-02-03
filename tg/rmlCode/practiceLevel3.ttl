@@ -1,0 +1,504 @@
+@prefix ex: <http://example.com/ns#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdam: <http://rdaregistry.info/Elements/w/>.
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/>.
+@prefix tg: <http://bogusIRI.edu/bogus/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+ex:Practice3In a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level3/combo.xml" ;
+    rml:iterator "/RDF/Description[P30139]" ;
+    rml:referenceFormulation ql:XPath
+] ;
+rr:subjectMap [
+    rml:reference "@about" ;
+    rr:class bf:Instance
+] ;
+#1 rdam:P30003 has mode of issuance (RDA 2.13), "issuance* or issuance >> Issuance > rdfs:label"
+#however there is only one structured "issuance*" so no need to create the bnode condition
+rr:predicateObjectMap [
+    rr:predicate bf:issuance  ;
+    rr:objectMap [
+        rml:reference "P30003/@resource" ;
+        rr:termType rr:IRI
+    ]
+] ; 
+#2 rdam:P30018 has file type (RDA 3.19.2), "digitalCharacteristic >> FileType > rdfs:label  or digitalCharacteristic*"
+#however there is only one structured "digitalCharacteristic*" so no need to create the bnode condition
+#incorporates 7 and 15 below
+rr:predicateObjectMap [
+    rr:predicate bf:digitalCharacteristic  ;
+    rr:objectMap [
+        rml:reference "P30018/@resource" ;
+        rr:termType rr:IRI
+    ] ;
+    rr:objectMap [
+        rr:termType rr:BlankNode ;
+        rr:parentTriplesMap ex:EncodingFormat ;
+        rr:joinCondition [
+            rr:child "P30096" ;
+            rr:parent "P30096"
+        ]
+    ] ;
+     rr:objectMap [
+        rml:reference "P30006/@resource" ;
+        rr:termType rr:IRI
+    ]
+] ;
+#3 rdam:P30172, has type of recording (*) (RDA 3.16.2), "soundCharacteristic >> RecordingMethod > rdfs:label or soundCharacteristic*"
+#however there is only one structured "soundCharacteristic*" so no need to create the bnode condition
+#incorporates 5 and 9 and 12 below
+
+rr:predicateObjectMap [
+    rr:predicate bf:soundCharacteristic  ;
+    rr:objectMap [
+        rml:reference "P30172/@resource" ;
+        rr:termType rr:IRI
+    ] ;
+    rr:objectMap [
+        rml:reference "P30184/@resource" ;
+        rr:termType rr:IRI
+    ] ;
+    rr:objectMap [
+        rml:reference "P30206/@resource" ;
+        rr:termType rr:IRI
+    ] ;
+    rr:objectMap [
+        rml:reference "P30138" ;
+        rr:termType rr:Literal
+    ] ;    
+] ;
+#4 rdam:P30187 has production method (RDA 3.9), "productionMethod >> ProductionMethod > rdfs:label  or productionMethod*"
+#no conditions needed, only one
+rr:predicateObjectMap [
+    rr:predicate bf:productionMethod  ;
+    rr:objectMap [
+        rml:reference "P30187/@resource" ;
+        rr:termType rr:IRI
+    ]
+] ;
+#5 rdam:P30184 has configuration of playback channels (RDA 3.16.8), "soundCharacteristic >> PlaybackChannels > rdfs:label  or soundCharacteristic*"
+#no conditions needed, only one
+#same mapping as P30172; no attempt to combine into a single predicateObjectMap
+#folded into 3 above
+
+#6 rdam:P30123 has broadcast standard (RDA 3.18.3), "videoCharacteristic >> BroadcastStandard > rdfs:label or videoCharacteristic*"
+#no conditions needed, only one
+rr:predicateObjectMap [
+    rr:predicate bf:videoCharacteristic  ;
+    rr:objectMap [
+        rml:reference "P30123/@resource" ;
+        rr:termType rr:IRI
+    ]
+] ;
+#7 rdam:P30096 has encoding format (RDA 3.19.3), "digitalCharacteristic >> EncodingFormat > rdfs:label  or digitalCharacteristic*"
+#no conditions needed, only one
+#folded into 2 above
+
+#8 [double bnode] rdam:P30176, has name of publisher (RDA 2.8.4), "provisionActivity >> Publication > agent >> Agent > rdfs:label"
+rr:predicateObjectMap [
+    rr:predicate bf:provisionActivity  ;
+    rr:objectMap [
+        rr:termType rr:BlankNode ;
+        rr:parentTriplesMap ex:Publication ;
+        rr:joinCondition [
+            rr:child "P30176" ;
+            rr:parent "P30176"
+        ]
+    ]
+] ;
+#9 rdam:P30206  has recording medium (RDA 3.16.3), "soundCharacteristic >> RecordingMedium > rdfs:label  or soundCharacteristic*"
+#no conditions needed, only one
+#folded into 3 above
+
+#10 rdax:heldBy --> DO NOT MAP
+
+#11 rdam:P30011 has publication statement (RDA 2.8), provisionActivityStatement
+rr:predicateObjectMap [
+    rr:predicate bf:provisionActivityStatement ;
+    rr:objectMap [
+        rml:reference "P30011" ;
+        rr:termType rr:Literal
+    ]
+] ;
+#12 rdam:P30138, has special playback characteristic (RDA 3.16.9), "soundCharacteristic >> PlaybackCharacteristic > rdfs:label or soundCharacteristic*"
+#folded into 3 above
+
+#13 rdam:P30001, has carrier type (RDA 3.3), "carrier >> Carrier > rdfs:label or carrier*"
+rr:predicateObjectMap [
+    rr:predicate bf:carrier ;
+    rr:objectMap [
+        rml:reference "P30001/@resource" ;
+        rr:termType rr:IRI
+    ]
+] ;
+#14 rdam:P30139 has expression manifested (RDA 17.10), "instanceOf* or instanceOf >> Work > rdfs:label or instanceOf >> Work.subclass > rdfs:label"
+rr:predicateObjectMap [
+    rr:predicate bf:instanceOf ;
+    rr:objectMap [
+        rml:reference "P30139/@resource" ;
+        rr:termType rr:IRI
+    ]
+] ;
+#15 rdam:P30006 has regional encoding (RDA 3.19.6), "digitalCharacteristic >> RegionalEncoding > rdfs:label or digitalCharacteristic*"
+#folded into 2 above
+rr:predicateObjectMap [
+    rr:predicate bf:digitalCharacteristic ;
+    rr:objectMap [
+        rml:reference "P30006/@resource" ;
+        rr:termType rr:IRI
+    ]
+] ;
+#16 rdam:P30002 has media type (RDA 3.2), "media >> Media > rdfs:label or media*"
+rr:predicateObjectMap [
+    rr:predicate bf:media ;
+    rr:objectMap [
+        rml:reference "P30002/@resource" ;
+        rr:termType rr:IRI
+    ]
+] .
+
+ex:Practice3Ex a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level3/combo.xml" ;
+    rml:iterator "RDF/Description[P20231]" ;
+    rml:referenceFormulation ql:XPath
+];
+rr:subjectMap [
+    rml:reference "@about" ;
+    rr:class bf:Work
+] ;
+#17 rdae:P20322 has intended audience of expression, "intendedAudience* or intendedAudience >> IntendedAudience > rdfs:label"
+rr:predicateObjectMap [
+    rr:predicate bf:intendedAudience ;
+    rr:objectMap [
+        rml:reference "P20322/@resource" ;
+        rr:termType rr:IRI
+    ]
+] ;
+#18 rdae:P20261 has details of colour content RDA 7.17.1.4, note >> Note > rdfs:label > noteType="has details of colour content" 
+#includes 22 below
+rr:predicateObjectMap [
+    rr:predicate bf:note ;
+    rr:objectMap [
+        rr:termType rr:BlankNode ;
+        rr:parentTriplesMap ex:Note ;
+        rr:joinCondition [
+            rr:child "P20261" ;
+            rr:parent "P20261"
+        ]
+    ];
+    rr:objectMap [
+        rr:termType rr:BlankNode ;
+        rr:parentTriplesMap ex:Characteristic ;
+        rr:joinCondition [
+            rr:child "P20003" ;
+            rr:parent "P20003"
+        ]
+    ]
+] ;
+#19 rdae:P20224 has colour content RDA 7.17, "colorContent* or colorContent >> ColorContent > rdfs:label"
+#both litereal and IRI values; requires 2 maps
+rr:predicateObjectMap [
+    rr:predicate bf:colorContent ;
+    rr:objectMap [
+        rml:reference "P20224/@resource" ;
+        rr:termType rr:IRI
+    ] ;
+    rr:objectMap [
+        rr:termType rr:BlankNode ;
+        rr:parentTriplesMap ex:ColorContent ;
+        rr:joinCondition [
+            rr:child "P20224[text()]" ;
+            rr:parent "P20224[text()]"
+        ]
+    ]
+] ;
+#20 rdae:P20231 has work expressed, "expressionOf* or expressionOf >> Work > rdfs:label or expressionOf >> Work.subclass > rdfs:label"
+rr:predicateObjectMap [
+    rr:predicate bf:expressionOf ;
+    rr:objectMap [
+        rml:reference "P20231/@resource" ;
+        rr:termType rr:IRI
+    ]
+] ;
+#21 rdae:P20006 has language of expression RDA 6.11, "language* or language >> Language > rdfs:label"
+rr:predicateObjectMap [
+    rr:predicate bf:language ;
+    rr:objectMap [
+        rml:reference "P20006/@reference" ;
+        rr:termType rr:IRI
+    ]
+] ;
+#22 rdae:P20003 has other distinguishing characteristic of expression RDA 6.12 note >> Note > rdfs:label > noteType="other distinguishing characteristic of expression"
+#folded into 18 above
+
+#23 rdae:P20331 has category of expression, "genreForm* or genreForm >> GenreForm > rdfs:label"
+rr:predicateObjectMap [
+    rr:predicate bf:genreForm ;
+    rr:objectMap [
+        rml:reference "P20331/@reference" ;
+        rr:termType rr:IRI
+    ]
+] ;
+#24 rdae:P20069 has summarization of content RDA 7.10, "summary* or summary >> Summary > rdfs:label"
+rr:predicateObjectMap [
+    rr:predicate bf:summary ;
+    rr:objectMap [
+        rr:termType rr:BlankNode ;
+        rr:parentTriplesMap ex:Summary ;
+        rr:joinCondition [
+            rr:child "P20069" ;
+            rr:parent "P20069"
+        ]
+    ]
+] ;
+#25 rdae:P20001 has content type RDA 6.9, "content* or content >> Content > rdfs:label"
+rr:predicateObjectMap [
+    rr:predicate bf:content ;
+    rr:objectMap [
+        rr:termType rr:IRI ;
+        rml:reference "P20001/@resource"
+    ]
+] ;
+#26 rdae:P20207 has illustrative content RDA 7.15, "illustrativeContent* or illustrativeContent >> Illustration > rdfs:label"
+rr:predicateObjectMap [
+    rr:predicate bf:illustrativeContent ;
+    rr:objectMap [
+        rr:termType rr:IRI ;
+        rml:reference "P20207/@reference"
+    ]
+] ;
+#27 rdae:P20065 has script RDA 7.13.2, "notation* or notation >> Script > rdfs:label"
+rr:predicateObjectMap [
+    rr:predicate bf:notation ;
+    rr:objectMap [
+        rr:termType rr:BlankNode ;
+        rr:parentTriplesMap ex:Script ;
+        rr:joinCondition [
+            rr:child "P20065" ;
+            rr:parent "P20065"
+        ]
+    ]
+] .
+
+ex:Practice3Wo a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level3/combo.xml" ;
+    rml:iterator "RDF/Description[type/@resource='http://rdaregistry.info/Elements/c/C10001']" ;
+    rml:referenceFormulation ql:XPath
+];
+rr:subjectMap [
+    rml:reference "@about" ;
+    rr:class bf:Work
+] ;
+#28 rdaw:P10004 has category of work (Genre lookup)(RDA 6.3) "genreForm* or genreForm >> GenreForm > rdfs:label"
+rr:predicateObjectMap [
+    rr:predicate bf:genreForm ;
+    rr:objectMap [
+        rr:termType rr:IRI ;
+        rml:reference "P10004/@resource"
+    ] ,
+    [
+        rr:termType rr:BlankNode ;
+        rr:parentTriplesMap ex:GenreForm ;
+        rr:joinCondition [
+            rr:parent "P10004" ;
+            rr:child "P10004"
+        ]
+    ]
+ ] .
+#29 rdaw:P10256 has subject (RDA 23.4) "subject* or subject >> madsrdf:Authority > madsrdf:authoritativeLabel > rdfs:label"
+
+#30 rdaw:P10016 is dramatized as work (RDA 24.5) "hasDerivative* or hasDerivative >> Work > rdfs:label
+#31 rdaw:P10148 has derivative work (RDA 24.5) "hasDerivative* or hasDerivative >> Work > rdfs:label"
+#32 rdaw:P10155 is adapted as work (RDA 24.5) "hasDerivative* or hasDerivative >> Work > rdfs:label"
+#33 rdaw:P10235 is adapted as musical theatre work (RDA 24.5) "hasDerivative* or hasDerivative >> Work > rdfs:label "
+#34 rdaw:P10291 is inspiration for (RDA 24.5) "hasDerivative* or hasDerivative >> Work > rdfs:label "
+#35 rdaw:P10085 is adapted as television program work (RDA 24.5) "hasDerivative* or hasDerivative >> Work > rdfs:label" 
+#36 rdaw:P10025 is adapted as motion picture work (RDA 24.5) "hasDerivative* or hasDerivative >> Work > rdfs:label "
+
+#37 rdax:hasCreatorCharacteristic --> DID NOT MAP
+
+#38 rdaw:P10218 has place of origin of work (RDA 6.5) "originPlace* or originPlace >> Place > rdfs:label"
+
+#39 rdaw:P10198 has related work of work "relatedTo* or relatedTo >> Work > rdfs:label"
+#40 rdaw:P10216 has coverage of content (RDA 7.3) "relatedTo* or note >> Note > rdfs:label > noteType=""coverage of content"""
+#41 rdaw:P10020 has sequel work (RDA 24.5) "relatedTo* or relatedTo >> Work > rdfs:label"
+
+#42 rdaw:P10147 has part work (RDA 24.5) "hasPart* or hasPart >> Work > rdfs:label"
+
+#*****END OF TRIPLESMAP INSTANCES FOR ENTITIES.*****
+
+#1-6 no parentTriplesMap needed
+#7 parentTriplesMap
+ex:EncodingFormat a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level3/combo.xml" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "RDF/Description[P30096]"
+] ;
+rr:subjectMap [
+    rr:class bf:EncodingFormat ;
+    rr:termType rr:BlankNode
+] ;
+rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [
+        rml:reference "P30096" ;
+        rr:termType rr:Literal
+    ]
+] .
+#8.1 [double bnode] rdam:P30176, has name of publisher (RDA 2.8.4), "provisionActivity >> Publication > agent >> Agent > rdfs:label"
+ex:Publication a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level3/combo.xml" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "RDF/Description[P30176]"
+] ;
+rr:subjectMap [
+    rr:class bf:Publication ;
+    rr:termType rr:BlankNode
+] ;
+rr:predicateObjectMap [
+    rr:predicate bf:agent  ;
+    rr:objectMap [
+        rr:termType rr:BlankNode ;
+        rr:parentTriplesMap ex:Agent 
+    ]
+] .
+#8.2 [double bnode] rdam:P30176, has name of publisher (RDA 2.8.4), "provisionActivity >> Publication > agent >> Agent > rdfs:label"
+ex:Agent a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level3/combo.xml" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "RDF/Description[P30176]"
+] ;
+rr:subjectMap [
+    rr:class bf:Agent ;
+    rr:termType rr:BlankNode
+] ;
+rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [
+        rml:reference "P30176" ;
+        rr:termType rr:Literal
+    ]
+] .
+
+ex:Note a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level3/combo.xml" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "RDF/Description[P20231]"
+] ;
+rr:subjectMap [
+    rr:class bf:Note ;
+    rr:termType rr:BlankNode
+] ;
+rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [
+        rml:reference "P20261" ;
+        rr:termType rr:Literal
+    ]
+] .
+ex:ColorContent a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level3/combo.xml" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "RDF/Description[P20224/text()]"
+] ;
+rr:subjectMap [
+    rr:class bf:ColorContent ;
+    rr:termType rr:BlankNode
+] ;
+rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [
+        rml:reference "P20224[text()]" ;
+        rr:termType rr:Literal
+    ]
+] .
+ex:Characteristic a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level3/combo.xml" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "RDF/Description[P20003]"
+] ;
+rr:subjectMap [
+    rr:class bf:Note ;
+    rr:termType rr:BlankNode
+] ;
+rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [
+        rml:reference "P20003" ;
+        rr:termType rr:Literal
+    ]
+] ;
+rr:predicateObjectMap [
+    rr:predicate bf:noteType ;
+    rr:objectMap [
+        rr:constant "Other distinguishing characteristic" ;
+        rr:termType rr:Literal
+    ]
+] .
+ex:Summary a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level3/combo.xml" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "RDF/Description[P20069]"
+] ;
+rr:subjectMap [
+    rr:class bf:Summary ;
+    rr:termType rr:BlankNode
+] ;
+rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [
+    rr:termType rr:Literal ;
+    rml:reference "P20069"
+    ]
+] .
+ex:Script a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level3/combo.xml" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "RDF/Description[P20065]"
+] ;
+rr:subjectMap [
+    rr:class bf:Script ;
+    rr:termType rr:BlankNode
+] ;
+rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [
+        rr:termType rr:Literal ; 
+        rml:reference "P20065"
+    ]
+] .
+
+ex:GenreForm a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level3/combo.xml" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "RDF/Description[P10004]"
+] ;
+rr:subjectMap [
+    rr:class bf:GenreForm ;
+    rr:termType rr:BlankNode
+] ;
+rr::predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [
+        rr:termType rr:Literal ;
+        rml:reference "P10004" 
+    ]
+] .

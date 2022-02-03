@@ -1,0 +1,167 @@
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ex: <http://example.com/ns#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdam: <http://rdaregistry.info/Elements/w/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix tg: <http://bogusIRI.edu/bogus/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://api.sinopia.io/resource/28c01f9f-2502-4488-a144-71a31f21d0d4> a bf:Instance;
+  bf:extent _:3 .
+
+_:3 a bf:Extent;
+  rdfs:label "volumes" .
+
+<https://api.sinopia.io/resource/28c01f9f-2502-4488-a144-71a31f21d0d4> bf:note _:0 .
+
+_:0 a bf:Note;
+  rdfs:label "1. кн. Прозо -- Кокымшо книга. Поэзий, драматургий." .
+
+<https://api.sinopia.io/resource/28c01f9f-2502-4488-a144-71a31f21d0d4> bf:title _:1 .
+
+_:1 a bf:Title;
+  bf:subtitle "11 класслан хрестоматий" .
+
+<https://api.sinopia.io/resource/28c01f9f-2502-4488-a144-71a31f21d0d4> bf:title _:2 .
+
+_:2 a bf:Title;
+  bf:mainTitle "Кызытсе марий литератур" .
+
+<https://api.sinopia.io/resource/28c01f9f-2502-4488-a144-71a31f21d0d4> bf:title _:4 .
+
+_:4 a bf:VariantTitle;
+  bf:mainTitle "Sovremennai︠a︡ mariĭskai︠a︡ literatura", "Современная марийская литература" .
+
+<https://api.sinopia.io/resource/6ffa79a8-94a8-4d01-b5c2-b7e7ef6f0b74> a bf:Instance;
+  bf:extent _:9 .
+
+_:9 a bf:Extent;
+  rdfs:label "39 pages" .
+
+<https://api.sinopia.io/resource/6ffa79a8-94a8-4d01-b5c2-b7e7ef6f0b74> bf:title _:10 .
+
+_:10 a bf:VariantTitle;
+  bf:mainTitle "Lailah ṭov : Ḳeriʼat Shemaʻ ʻal ha-miṭah", "לילה טוב : קריאת שמע על המטה" .
+
+<https://api.sinopia.io/resource/6ffa79a8-94a8-4d01-b5c2-b7e7ef6f0b74> bf:title _:5 .
+
+_:5 a bf:Title;
+  bf:subtitle "a good night book" .
+
+<https://api.sinopia.io/resource/6ffa79a8-94a8-4d01-b5c2-b7e7ef6f0b74> bf:title _:6 .
+
+_:6 a bf:ParallelTitle;
+  bf:subtitle "Ḳeriʼat Shemaʻ ʻal ha-miṭah", "קריאת שמע על המטה" .
+
+<https://api.sinopia.io/resource/6ffa79a8-94a8-4d01-b5c2-b7e7ef6f0b74> bf:title _:7 .
+
+_:7 a bf:ParallelTitle;
+  bf:mainTitle "Lailah ṭov", "לילה טוב" .
+
+<https://api.sinopia.io/resource/6ffa79a8-94a8-4d01-b5c2-b7e7ef6f0b74> bf:title _:8 .
+
+_:8 a bf:Title;
+  bf:mainTitle "The Bedtime Sh'ma" .
+
+<https://api.sinopia.io/resource/b117b54d-ba45-4cc1-98ec-2654e93b657a> a bf:Instance;
+  bf:extent _:14 .
+
+_:14 a bf:Extent;
+  rdfs:label "vii, 175 pages" .
+
+<https://api.sinopia.io/resource/b117b54d-ba45-4cc1-98ec-2654e93b657a> bf:note _:11 .
+
+_:11 a bf:Note;
+  rdfs:label "\"December 5, 1989.\"", "\"WMCP:101-19.\"", """At head of title: 101st Congress, 1st session. Committee
+      print""",
+    "Item 1028-A, 1028-B (MF)", "Shipping list no.: 90-079-P" .
+
+<https://api.sinopia.io/resource/b117b54d-ba45-4cc1-98ec-2654e93b657a> bf:title _:12 .
+
+_:12 a bf:Title;
+  bf:subtitle "policy and practice : a report" .
+
+<https://api.sinopia.io/resource/b117b54d-ba45-4cc1-98ec-2654e93b657a> bf:title _:13 .
+
+_:13 a bf:Title;
+  bf:mainTitle "The Child Support Enforcement program" .
+
+<https://api.sinopia.io/resource/c7718302-7c8d-424d-bc61-4cb134ce4e5e> a bf:Instance;
+  bf:extent _:18 .
+
+_:18 a bf:Extent;
+  rdfs:label "v, 28 pages" .
+
+<https://api.sinopia.io/resource/c7718302-7c8d-424d-bc61-4cb134ce4e5e> bf:note _:15 .
+
+_:15 a bf:Note;
+  rdfs:label "\"January 1990.\"", "\"Serial no. 101-F.\"", """At head of title: 101st Congress, 2d session. Committee
+      print.""",
+    """Distributed to some depository libraries in
+      microfiche.""", "Item 1009-B-1, 1009-C-1 (MF).",
+    "Shipping list no.: 90-107-P." .
+
+<https://api.sinopia.io/resource/c7718302-7c8d-424d-bc61-4cb134ce4e5e> bf:title _:16 .
+
+_:16 a bf:Title;
+  bf:subtitle """turning a bad deal into a fair deal : a majority staff report of the
+      Special Committee on Aging, United States Senate.""" .
+
+<https://api.sinopia.io/resource/c7718302-7c8d-424d-bc61-4cb134ce4e5e> bf:title _:17 .
+
+_:17 a bf:Title;
+  bf:mainTitle "Skyrocketing prescription drug prices" .
+
+<https://api.sinopia.io/resource/d04328c3-db6a-4196-ab5b-22fe95309bf4> a bf:Instance;
+  bf:extent _:23 .
+
+_:23 a bf:Extent;
+  rdfs:label "viii, 377 pages" .
+
+<https://api.sinopia.io/resource/d04328c3-db6a-4196-ab5b-22fe95309bf4> bf:hasItem
+    _:21 .
+
+_:21 a bf:Item;
+  bf:electronicLocator "" .
+
+<https://api.sinopia.io/resource/d04328c3-db6a-4196-ab5b-22fe95309bf4> bf:note _:19 .
+
+_:19 a bf:Note;
+  rdfs:label "\"OTA-O-424\"--Page 4 of cover", "\"October 1989\"--Page 4 of cover",
+    "S/N 052-003-01168-9", "Shipping list no.: 1989-0742-P" .
+
+<https://api.sinopia.io/resource/d04328c3-db6a-4196-ab5b-22fe95309bf4> bf:title _:20 .
+
+_:20 a bf:Title;
+  bf:subtitle "what next for municipal solid waste?" .
+
+<https://api.sinopia.io/resource/d04328c3-db6a-4196-ab5b-22fe95309bf4> bf:title _:22 .
+
+_:22 a bf:Title;
+  bf:mainTitle "Facing America's trash" .
+
+<https://api.sinopia.io/resource/f0ff32b0-9818-4f67-886f-894004325962> a bf:Instance;
+  bf:extent _:27 .
+
+_:27 a bf:Extent;
+  rdfs:label "vi, 142 pages" .
+
+<https://api.sinopia.io/resource/f0ff32b0-9818-4f67-886f-894004325962> bf:note _:24 .
+
+_:24 a bf:Note;
+  rdfs:label "\"October 1989.\"", "\"Serial H.\"", "At head ot title: Committee print",
+    "Item 1025-A-1, 1025-A-2 (MF)", "Shipping list no.: 90-105-P" .
+
+<https://api.sinopia.io/resource/f0ff32b0-9818-4f67-886f-894004325962> bf:title _:25 .
+
+_:25 a bf:Title;
+  bf:subtitle """report to the Committee on Science, Space, and Technology, U.S.
+      House of Representatives, One Hundred First Congress, first session""" .
+
+<https://api.sinopia.io/resource/f0ff32b0-9818-4f67-886f-894004325962> bf:title _:26 .
+
+_:26 a bf:Title;
+  bf:mainTitle "Oversight visit to the Far East" .

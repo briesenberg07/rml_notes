@@ -1,0 +1,174 @@
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ex: <http://example.com/ns#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdam: <http://rdaregistry.info/Elements/w/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix tg: <http://bogusIRI.edu/bogus/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> a bf:Instance;
+  bf:carrier <http://rdaregistry.info/termList/RDACarrierType/1060>;
+  bf:digitalCharacteristic <http://rdaregistry.info/termList/RDARegionalEncoding/1001>,
+    <http://rdaregistry.info/termList/fileType/1006>, _:1 .
+
+_:1 a bf:EncodingFormat;
+  rdfs:label "DVD video" .
+
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> bf:instanceOf
+    <https://api.sinopia.io/resource/b4c95cf4-9223-4c1a-9978-7428819d628d>;
+  bf:issuance <http://rdaregistry.info/termList/ModeIssue/1001>;
+  bf:media <http://rdaregistry.info/termList/RDAMediaType/1008>;
+  bf:productionMethod <http://rdaregistry.info/termList/RDAproductionMethod/1017>;
+  bf:provisionActivity _:0 .
+
+_:0 a bf:Publication;
+  bf:agent _:19 .
+
+_:19 a bf:Agent;
+  rdfs:label "월드 디지탈" .
+
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> bf:provisionActivityStatement
+    "2008";
+  bf:soundCharacteristic "2.0 Dolby Digital Audio", <http://rdaregistry.info/termList/configPlayback/1002>,
+    <http://rdaregistry.info/termList/recMedium/1003>, <http://rdaregistry.info/termList/typeRec/1002>;
+  bf:videoCharacteristic <http://rdaregistry.info/termList/broadcastStand/1002> .
+
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> a bf:Work;
+  bf:colorContent <http://rdaregistry.info/termList/RDAColourContent/1002>, <http://rdaregistry.info/termList/RDAColourContent/1003>,
+    _:11 .
+
+_:11 a bf:ColorContent;
+  rdfs:label "black and white", "color" .
+
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> bf:content
+    <http://rdaregistry.info/termList/RDAContentType/1014>, <http://rdaregistry.info/termList/RDAContentType/1020>;
+  bf:expressionOf <https://api.sinopia.io/resource/c5ed4800-ab25-4fe6-804a-7bc84f67e719>;
+  bf:intendedAudience <http://id.loc.gov/authorities/demographicTerms/dg2015060010>;
+  bf:notation _:13 .
+
+_:13 a bf:Script;
+  rdfs:label "Latin" .
+
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> bf:notation
+    _:14 .
+
+_:14 a bf:Script;
+  rdfs:label "Latin" .
+
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> bf:note _:10 .
+
+_:10 a bf:Note;
+  bf:noteType "Other distinguishing characteristic";
+  rdfs:label "Winter" .
+
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> bf:note _:9 .
+
+_:9 a bf:Note;
+  rdfs:label """Chiefly black and white illustrations; five color
+      plates""" .
+
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> bf:summary
+    _:12 .
+
+_:12 a bf:Summary;
+  rdfs:label """When a new friend gives Hans and his sister Gretel enough money for
+      one pair of ice skates, Hans insists that Gretel enter the grand skating competition, while he
+      approaches the great Doctor who consents to try to restore their father's health and
+      memory.""" .
+
+<https://api.sinopia.io/resource/9cd24070-1dea-44f7-a7fe-e5a917db49d9> a bf:Work;
+  bf:genreForm <http://id.loc.gov/authorities/genreForms/gf2014026360>, <http://id.loc.gov/authorities/genreForms/gf2014026516>,
+    <http://id.loc.gov/authorities/genreForms/gf2015026020>, <http://id.loc.gov/authorities/genreForms/gf2018026115>,
+    <http://id.loc.gov/authorities/subjects/sh85048050>, _:2 .
+
+_:2 a bf:GenreForm .
+
+<https://api.sinopia.io/resource/9cd24070-1dea-44f7-a7fe-e5a917db49d9> bf:genreForm
+    _:4 .
+
+_:4 a bf:GenreForm .
+
+<https://api.sinopia.io/resource/9cd24070-1dea-44f7-a7fe-e5a917db49d9> bf:genreForm
+    _:5 .
+
+_:5 a bf:GenreForm .
+
+<https://api.sinopia.io/resource/9cd24070-1dea-44f7-a7fe-e5a917db49d9> bf:genreForm
+    _:6 .
+
+_:6 a bf:GenreForm .
+
+<https://api.sinopia.io/resource/9cd24070-1dea-44f7-a7fe-e5a917db49d9> bf:genreForm
+    _:7 .
+
+_:7 a bf:GenreForm .
+
+<https://api.sinopia.io/resource/9cd24070-1dea-44f7-a7fe-e5a917db49d9> bf:genreForm
+    _:8 .
+
+_:8 a bf:GenreForm .
+
+<https://api.sinopia.io/resource/a806ceaa-4ec4-46c2-99c8-3f11c8cfa3dd> a bf:Work;
+  bf:genreForm <http://id.loc.gov/authorities/genreForms/gf2014026039>, _:3 .
+
+_:3 a bf:GenreForm .
+
+<https://api.sinopia.io/resource/b7d6a2f8-e217-4b85-a12f-ecbe75b409dd> a bf:Work;
+  bf:genreForm <http://id.loc.gov/authorities/genreForms/gf2014026039>, _:2, _:4, _:5,
+    _:6, _:7, _:8 .
+
+<https://api.sinopia.io/resource/d72465eb-d1dc-4ee4-a30d-062c033bfbe3> a bf:Work;
+  bf:genreForm <http://id.loc.gov/authorities/genreForms/gf2014026339>, <http://id.loc.gov/authorities/genreForms/gf2014026370>,
+    <http://id.loc.gov/authorities/genreForms/gf2015026020>, <http://id.loc.gov/authorities/genreForms/gf2016026001>,
+    _:2, _:4, _:5, _:6, _:7, _:8 .
+
+<https://api.sinopia.io/resource/da71d823-03f2-4122-8d5d-3e38df134370> a bf:Work;
+  bf:genreForm <http://id.loc.gov/authorities/genreForms/gf2014026217>, <http://id.loc.gov/authorities/genreForms/gf2015026020>,
+    <http://id.loc.gov/authorities/subjects/sh85001072>, _:2, _:4, _:5, _:6, _:7, _:8 .
+
+<https://api.sinopia.io/resource/dd6d4c68-3985-41a1-a866-022326d8d063> a bf:Work;
+  bf:genreForm <http://id.loc.gov/authorities/genreForms/gf2014026231>, <http://id.loc.gov/authorities/genreForms/gf2014026243>,
+    <http://id.loc.gov/authorities/genreForms/gf2014026295>, <http://id.loc.gov/authorities/genreForms/gf2015026020>,
+    _:2, _:4, _:5, _:6, _:7, _:8 .
+
+<https://api.sinopia.io/resource/ef16e337-20ce-49c1-ac66-241ca3124c15> a bf:Work;
+  bf:colorContent <http://rdaregistry.info/termList/RDAColourContent/1002>, <http://rdaregistry.info/termList/RDAColourContent/1003>,
+    _:17 .
+
+_:17 a bf:ColorContent;
+  rdfs:label "black and white", "color" .
+
+<https://api.sinopia.io/resource/ef16e337-20ce-49c1-ac66-241ca3124c15> bf:content
+    <http://rdaregistry.info/termList/RDAContentType/1014>, <http://rdaregistry.info/termList/RDAContentType/1020>;
+  bf:expressionOf <https://api.sinopia.io/resource/c5ed4800-ab25-4fe6-804a-7bc84f67e719>;
+  bf:intendedAudience <http://id.loc.gov/authorities/demographicTerms/dg2015060010>;
+  bf:notation _:13, _:14;
+  bf:note _:15 .
+
+_:15 a bf:Note;
+  rdfs:label "Chiefly black and white illustrations; plates in color" .
+
+<https://api.sinopia.io/resource/ef16e337-20ce-49c1-ac66-241ca3124c15> bf:note _:16 .
+
+_:16 a bf:Note;
+  bf:noteType "Other distinguishing characteristic";
+  rdfs:label "Baldridge" .
+
+<https://api.sinopia.io/resource/ef16e337-20ce-49c1-ac66-241ca3124c15> bf:summary
+    _:18 .
+
+_:18 a bf:Summary;
+  rdfs:label """When a friend gives Hans and his sister Gretel enough money for
+      one pair of ice skates, Hans insists that Gretel enter the grand skating competition, while he
+      approaches the great Doctor who consents to try to restore their father's health and
+      memory.""" .
+
+<https://api.sinopia.io/resource/f3b38747-4060-445b-9b2c-52408cc16124> a bf:Work;
+  bf:genreForm <http://id.loc.gov/authorities/genreForms/gf2011026089>, <http://id.loc.gov/authorities/genreForms/gf2011026205>,
+    <http://id.loc.gov/authorities/genreForms/gf2011026232>, <http://id.loc.gov/authorities/genreForms/gf2011026247>,
+    <http://id.loc.gov/authorities/genreForms/gf2011026337>, <http://id.loc.gov/authorities/genreForms/gf2011026406>,
+    <http://id.loc.gov/authorities/genreForms/gf2011026423>, _:2, _:4, _:5, _:6, _:7,
+    _:8 .

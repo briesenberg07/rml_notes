@@ -1,0 +1,129 @@
+@prefix ex: <http://example.com/ns#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdam: <http://rdaregistry.info/Elements/w/>.
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/>.
+@prefix tg: <http://bogusIRI.edu/bogus/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+
+ex:Practice1 a rr:TriplesMap ;
+rml:logicalSource [
+    rml:source "../data/level1/combo.xml" ;
+    rml:iterator "/RDF/Description" ;
+    rml:referenceFormulation ql:XPath
+] ;
+
+rr:subjectMap [
+    rml:reference "@about" ;
+    rr:class bf:Instance
+] ;
+
+rr:predicateObjectMap [
+    rr:predicate tg:publisherPlace  ;
+    rr:objectMap [
+        rml:reference "P30111" ;
+        rr:termType rr:Literal ;
+        rml:languageMap [
+            rml:reference "P30111/@lang"
+        ]
+    ]
+] ;
+
+rr:predicateObjectMap [
+    rr:predicate tg:copyrightDate  ;
+    rr:objectMap [
+        rml:reference "P30007" ;
+        rr:termType rr:Literal ;
+        
+    ]
+] ;
+
+rr:predicateObjectMap [
+    rr:predicate bf:seriesStatement  ;
+    rr:objectMap [
+        rml:reference "P30106" ;
+        rr:termType rr:Literal ;
+        rml:languageMap [
+            rml:reference "P30106/@lang"
+        ]
+    ] ;
+    rr:objectMap [
+        rml:reference "P30157" ;
+        rr:termType rr:Literal ;
+        rml:languageMap [
+            rml:reference "P30157/@lang"
+        ]
+    ] ;
+    rr:objectMap [
+        rml:reference "P30143" ;
+        rr:termType rr:Literal ;
+        rml:languageMap [
+            rml:reference "P30143/@lang"
+        ]
+    ] ;
+    rr:objectMap [
+        rml:reference "P30119" ;
+        rr:termType rr:Literal ;
+        rml:languageMap [
+            rml:reference "P30119/@lang"
+        ]
+    ]
+] ;
+
+rr:predicateObjectMap [
+    rr:predicate tg:edition ;
+    rr:objectMap [
+        rml:reference "P30133" ;
+        rr:termType rr:Literal ;
+        rml:languageMap [
+            rml:reference "P30133/@lang"
+        ]
+    ]
+];
+
+rr:predicateObjectMap [
+    rr:predicate tg:agentToBlame ;
+    rr:objectMap [
+        rml:reference "P30105" ;
+        rr:termType rr:Literal ;
+        rml:languageMap [
+            rml:reference "P30105/@lang"
+        ]
+    ]
+] ;
+
+rr:predicateObjectMap [
+    rr:predicate tg:size ;
+    rr:objectMap [
+        rml:reference "P30169" ;
+        rr:termType rr:Literal ;
+        rml:languageMap [
+            rml:reference "P30169/@lang"
+        ]
+    ]
+] ;
+
+rr:predicateObjectMap [
+    rr:predicate bf:seriesEnumeration ;
+    rr:objectMap [
+        rml:reference "P30014" ;
+        rr:termType rr:Literal ;
+        rr:datatype xsd:integer
+    ]
+] ;
+
+rr:predicateObjectMap [
+    rr:predicate tg:rdaAccessPoint ;
+    rr:objectMap [
+        rml:reference "P30294" ;
+        rr:termType rr:Literal ;
+        rml:languageMap [
+            rml:reference "P30294/@lang"
+        ]
+    ]
+] .

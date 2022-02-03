@@ -1,0 +1,73 @@
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> <http://id.loc.gov/ontologies/bibframe/issuance> <http://rdaregistry.info/termList/ModeIssue/1001> .
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> <http://id.loc.gov/ontologies/bibframe/media> <http://rdaregistry.info/termList/RDAMediaType/1008> .
+<https://api.sinopia.io/resource/ef16e337-20ce-49c1-ac66-241ca3124c15> <http://id.loc.gov/ontologies/bibframe/content> <http://rdaregistry.info/termList/RDAContentType/1020> .
+_:f81b791c67f4245339003c1eb4c52bed5b7 <http://www.w3.org/2000/01/rdf-schema#label> "Chiefly black and white illustrations; five color\n      plates" .
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> <http://id.loc.gov/ontologies/bibframe/notation> _:f81b791c67f4245339003c1eb4c52bed5b5 .
+_:f81b791c67f4245339003c1eb4c52bed5b8 <http://www.w3.org/2000/01/rdf-schema#label> "Winter" .
+_:f81b791c67f4245339003c1eb4c52bed5b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Summary> .
+_:f81b791c67f4245339003c1eb4c52bed5b5 <http://www.w3.org/2000/01/rdf-schema#label> "Latin" .
+<https://api.sinopia.io/resource/ef16e337-20ce-49c1-ac66-241ca3124c15> <http://id.loc.gov/ontologies/bibframe/notation> _:f81b791c67f4245339003c1eb4c52bed5b5 .
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> <http://id.loc.gov/ontologies/bibframe/carrier> <http://rdaregistry.info/termList/RDACarrierType/1060> .
+<https://api.sinopia.io/resource/ef16e337-20ce-49c1-ac66-241ca3124c15> <http://id.loc.gov/ontologies/bibframe/content> <http://rdaregistry.info/termList/RDAContentType/1014> .
+_:f81b791c67f4245339003c1eb4c52bed5b6 <http://www.w3.org/2000/01/rdf-schema#label> "Latin" .
+_:f81b791c67f4245339003c1eb4c52bed5b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Publication> .
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> <http://id.loc.gov/ontologies/bibframe/content> <http://rdaregistry.info/termList/RDAContentType/1014> .
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> <http://id.loc.gov/ontologies/bibframe/soundCharacteristic> <http://rdaregistry.info/termList/typeRec/1002> .
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> <http://id.loc.gov/ontologies/bibframe/videoCharacteristic> <http://rdaregistry.info/termList/broadcastStand/1002> .
+_:f81b791c67f4245339003c1eb4c52bed5b4 <http://www.w3.org/2000/01/rdf-schema#label> "black and white" .
+<https://api.sinopia.io/resource/ef16e337-20ce-49c1-ac66-241ca3124c15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Work> .
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> <http://id.loc.gov/ontologies/bibframe/productionMethod> <http://rdaregistry.info/termList/RDAproductionMethod/1017> .
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> <http://id.loc.gov/ontologies/bibframe/digitalCharacteristic> <http://rdaregistry.info/termList/RDARegionalEncoding/1001> .
+_:f81b791c67f4245339003c1eb4c52bed5b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Note> .
+_:f81b791c67f4245339003c1eb4c52bed5b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Script> .
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> <http://id.loc.gov/ontologies/bibframe/expressionOf> <https://api.sinopia.io/resource/c5ed4800-ab25-4fe6-804a-7bc84f67e719> .
+_:f81b791c67f4245339003c1eb4c52bed5b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/ColorContent> .
+_:f81b791c67f4245339003c1eb4c52bed5b2 <http://id.loc.gov/ontologies/bibframe/agent> _:f81b791c67f4245339003c1eb4c52bed5b3 .
+_:f81b791c67f4245339003c1eb4c52bed5b8 <http://id.loc.gov/ontologies/bibframe/noteType> "Other distinguishing characteristic" .
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> <http://id.loc.gov/ontologies/bibframe/soundCharacteristic> <http://rdaregistry.info/termList/configPlayback/1002> .
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> <http://id.loc.gov/ontologies/bibframe/colorContent> <http://rdaregistry.info/termList/RDAColourContent/1002> .
+_:f81b791c67f4245339003c1eb4c52bed5b10 <http://www.w3.org/2000/01/rdf-schema#label> "color" .
+<https://api.sinopia.io/resource/ef16e337-20ce-49c1-ac66-241ca3124c15> <http://id.loc.gov/ontologies/bibframe/colorContent> _:f81b791c67f4245339003c1eb4c52bed5b10 .
+_:f81b791c67f4245339003c1eb4c52bed5b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Agent> .
+<https://api.sinopia.io/resource/ef16e337-20ce-49c1-ac66-241ca3124c15> <http://id.loc.gov/ontologies/bibframe/colorContent> <http://rdaregistry.info/termList/RDAColourContent/1003> .
+_:f81b791c67f4245339003c1eb4c52bed5b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/ColorContent> .
+_:f81b791c67f4245339003c1eb4c52bed5b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Note> .
+<https://api.sinopia.io/resource/ef16e337-20ce-49c1-ac66-241ca3124c15> <http://id.loc.gov/ontologies/bibframe/intendedAudience> <http://id.loc.gov/authorities/demographicTerms/dg2015060010> .
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> <http://id.loc.gov/ontologies/bibframe/digitalCharacteristic> <http://rdaregistry.info/termList/fileType/1006> .
+_:f81b791c67f4245339003c1eb4c52bed5b3 <http://www.w3.org/2000/01/rdf-schema#label> "\uC6D4\uB4DC \uB514\uC9C0\uD0C8" .
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> <http://id.loc.gov/ontologies/bibframe/soundCharacteristic> "2.0 Dolby Digital Audio" .
+_:f81b791c67f4245339003c1eb4c52bed5b12 <http://www.w3.org/2000/01/rdf-schema#label> "Baldridge" .
+<https://api.sinopia.io/resource/ef16e337-20ce-49c1-ac66-241ca3124c15> <http://id.loc.gov/ontologies/bibframe/summary> _:f81b791c67f4245339003c1eb4c52bed5b13 .
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> <http://id.loc.gov/ontologies/bibframe/intendedAudience> <http://id.loc.gov/authorities/demographicTerms/dg2015060010> .
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> <http://id.loc.gov/ontologies/bibframe/content> <http://rdaregistry.info/termList/RDAContentType/1020> .
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> <http://id.loc.gov/ontologies/bibframe/summary> _:f81b791c67f4245339003c1eb4c52bed5b9 .
+_:f81b791c67f4245339003c1eb4c52bed5b9 <http://www.w3.org/2000/01/rdf-schema#label> "When a new friend gives Hans and his sister Gretel enough money for\n      one pair of ice skates, Hans insists that Gretel enter the grand skating competition, while he\n      approaches the great Doctor who consents to try to restore their father's health and\n      memory." .
+_:f81b791c67f4245339003c1eb4c52bed5b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/EncodingFormat> .
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> <http://id.loc.gov/ontologies/bibframe/provisionActivityStatement> "2008" .
+_:f81b791c67f4245339003c1eb4c52bed5b4 <http://www.w3.org/2000/01/rdf-schema#label> "color" .
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> <http://id.loc.gov/ontologies/bibframe/notation> _:f81b791c67f4245339003c1eb4c52bed5b6 .
+<https://api.sinopia.io/resource/ef16e337-20ce-49c1-ac66-241ca3124c15> <http://id.loc.gov/ontologies/bibframe/note> _:f81b791c67f4245339003c1eb4c52bed5b11 .
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> <http://id.loc.gov/ontologies/bibframe/note> _:f81b791c67f4245339003c1eb4c52bed5b8 .
+_:f81b791c67f4245339003c1eb4c52bed5b10 <http://www.w3.org/2000/01/rdf-schema#label> "black and white" .
+_:f81b791c67f4245339003c1eb4c52bed5b11 <http://www.w3.org/2000/01/rdf-schema#label> "Chiefly black and white illustrations; plates in color" .
+<https://api.sinopia.io/resource/ef16e337-20ce-49c1-ac66-241ca3124c15> <http://id.loc.gov/ontologies/bibframe/notation> _:f81b791c67f4245339003c1eb4c52bed5b6 .
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> <http://id.loc.gov/ontologies/bibframe/provisionActivity> _:f81b791c67f4245339003c1eb4c52bed5b2 .
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> <http://id.loc.gov/ontologies/bibframe/soundCharacteristic> <http://rdaregistry.info/termList/recMedium/1003> .
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> <http://id.loc.gov/ontologies/bibframe/note> _:f81b791c67f4245339003c1eb4c52bed5b7 .
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> <http://id.loc.gov/ontologies/bibframe/colorContent> _:f81b791c67f4245339003c1eb4c52bed5b4 .
+_:f81b791c67f4245339003c1eb4c52bed5b13 <http://www.w3.org/2000/01/rdf-schema#label> "When a friend gives Hans and his sister Gretel enough money for\n      one pair of ice skates, Hans insists that Gretel enter the grand skating competition, while he\n      approaches the great Doctor who consents to try to restore their father's health and\n      memory." .
+_:f81b791c67f4245339003c1eb4c52bed5b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Note> .
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Work> .
+_:f81b791c67f4245339003c1eb4c52bed5b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Summary> .
+<https://api.sinopia.io/resource/ef16e337-20ce-49c1-ac66-241ca3124c15> <http://id.loc.gov/ontologies/bibframe/note> _:f81b791c67f4245339003c1eb4c52bed5b12 .
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> <http://id.loc.gov/ontologies/bibframe/digitalCharacteristic> _:f81b791c67f4245339003c1eb4c52bed5b1 .
+<https://api.sinopia.io/resource/ef16e337-20ce-49c1-ac66-241ca3124c15> <http://id.loc.gov/ontologies/bibframe/expressionOf> <https://api.sinopia.io/resource/c5ed4800-ab25-4fe6-804a-7bc84f67e719> .
+_:f81b791c67f4245339003c1eb4c52bed5b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Script> .
+<https://api.sinopia.io/resource/ef16e337-20ce-49c1-ac66-241ca3124c15> <http://id.loc.gov/ontologies/bibframe/colorContent> <http://rdaregistry.info/termList/RDAColourContent/1002> .
+_:f81b791c67f4245339003c1eb4c52bed5b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Note> .
+_:f81b791c67f4245339003c1eb4c52bed5b1 <http://www.w3.org/2000/01/rdf-schema#label> "DVD video" .
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Instance> .
+<https://api.sinopia.io/resource/7c2c6757-3047-494e-8b13-2acc2ae54060> <http://id.loc.gov/ontologies/bibframe/colorContent> <http://rdaregistry.info/termList/RDAColourContent/1003> .
+_:f81b791c67f4245339003c1eb4c52bed5b12 <http://id.loc.gov/ontologies/bibframe/noteType> "Other distinguishing characteristic" .
+<https://api.sinopia.io/resource/71b34bef-f4d6-4ce9-a541-579a2f6186da> <http://id.loc.gov/ontologies/bibframe/instanceOf> <https://api.sinopia.io/resource/b4c95cf4-9223-4c1a-9978-7428819d628d> .
+

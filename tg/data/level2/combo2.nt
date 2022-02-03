@@ -1,0 +1,111 @@
+_:fbfa906df32d345878f03c36e72b129e3b22 <http://www.w3.org/2000/01/rdf-schema#label> "\"October 1989\"--Page 4 of cover" .
+_:fbfa906df32d345878f03c36e72b129e3b18 <http://id.loc.gov/ontologies/bibframe/subtitle> "turning a bad deal into a fair deal : a majority staff report of the\n      Special Committee on Aging, United States Senate." .
+_:fbfa906df32d345878f03c36e72b129e3b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Title> .
+<https://api.sinopia.io/resource/6ffa79a8-94a8-4d01-b5c2-b7e7ef6f0b74> <http://id.loc.gov/ontologies/bibframe/title> _:fbfa906df32d345878f03c36e72b129e3b9 .
+_:fbfa906df32d345878f03c36e72b129e3b24 <http://id.loc.gov/ontologies/bibframe/mainTitle> "Facing America's trash" .
+_:fbfa906df32d345878f03c36e72b129e3b17 <http://www.w3.org/2000/01/rdf-schema#label> "Distributed to some depository libraries in\n      microfiche." .
+_:fbfa906df32d345878f03c36e72b129e3b8 <http://id.loc.gov/ontologies/bibframe/subtitle> "a good night book" .
+_:fbfa906df32d345878f03c36e72b129e3b26 <http://www.w3.org/2000/01/rdf-schema#label> "At head ot title: Committee print" .
+<https://api.sinopia.io/resource/c7718302-7c8d-424d-bc61-4cb134ce4e5e> <http://id.loc.gov/ontologies/bibframe/title> _:fbfa906df32d345878f03c36e72b129e3b19 .
+_:fbfa906df32d345878f03c36e72b129e3b2 <http://www.w3.org/2000/01/rdf-schema#label> "1. \u043A\u043D. \u041F\u0440\u043E\u0437\u043E -- \u041A\u043E\u043A\u044B\u043C\u0448\u043E \u043A\u043D\u0438\u0433\u0430. \u041F\u043E\u044D\u0437\u0438\u0439, \u0434\u0440\u0430\u043C\u0430\u0442\u0443\u0440\u0433\u0438\u0439." .
+_:fbfa906df32d345878f03c36e72b129e3b17 <http://www.w3.org/2000/01/rdf-schema#label> "Shipping list no.: 90-107-P." .
+_:fbfa906df32d345878f03c36e72b129e3b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Note> .
+_:fbfa906df32d345878f03c36e72b129e3b26 <http://www.w3.org/2000/01/rdf-schema#label> "\"Serial H.\"" .
+_:fbfa906df32d345878f03c36e72b129e3b22 <http://www.w3.org/2000/01/rdf-schema#label> "\"OTA-O-424\"--Page 4 of cover" .
+_:fbfa906df32d345878f03c36e72b129e3b16 <http://www.w3.org/2000/01/rdf-schema#label> "v, 28 pages" .
+_:fbfa906df32d345878f03c36e72b129e3b17 <http://www.w3.org/2000/01/rdf-schema#label> "\"Serial no. 101-F.\"" .
+<https://api.sinopia.io/resource/28c01f9f-2502-4488-a144-71a31f21d0d4> <http://id.loc.gov/ontologies/bibframe/title> _:fbfa906df32d345878f03c36e72b129e3b3 .
+_:fbfa906df32d345878f03c36e72b129e3b7 <http://id.loc.gov/ontologies/bibframe/mainTitle> "\u05DC\u05D9\u05DC\u05D4 \u05D8\u05D5\u05D1 : \u05E7\u05E8\u05D9\u05D0\u05EA \u05E9\u05DE\u05E2 \u05E2\u05DC \u05D4\u05DE\u05D8\u05D4" .
+<https://api.sinopia.io/resource/6ffa79a8-94a8-4d01-b5c2-b7e7ef6f0b74> <http://id.loc.gov/ontologies/bibframe/title> _:fbfa906df32d345878f03c36e72b129e3b10 .
+_:fbfa906df32d345878f03c36e72b129e3b19 <http://id.loc.gov/ontologies/bibframe/mainTitle> "Skyrocketing prescription drug prices" .
+_:fbfa906df32d345878f03c36e72b129e3b13 <http://www.w3.org/2000/01/rdf-schema#label> "\"December 5, 1989.\"" .
+_:fbfa906df32d345878f03c36e72b129e3b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Extent> .
+_:fbfa906df32d345878f03c36e72b129e3b7 <http://id.loc.gov/ontologies/bibframe/mainTitle> "Lailah t\u0323ov : K\u0323eri\u02BCat Shema\u02BB \u02BBal ha-mit\u0323ah" .
+_:fbfa906df32d345878f03c36e72b129e3b13 <http://www.w3.org/2000/01/rdf-schema#label> "Shipping list no.: 90-079-P" .
+<https://api.sinopia.io/resource/28c01f9f-2502-4488-a144-71a31f21d0d4> <http://id.loc.gov/ontologies/bibframe/title> _:fbfa906df32d345878f03c36e72b129e3b5 .
+_:fbfa906df32d345878f03c36e72b129e3b22 <http://www.w3.org/2000/01/rdf-schema#label> "Shipping list no.: 1989-0742-P" .
+<https://api.sinopia.io/resource/d04328c3-db6a-4196-ab5b-22fe95309bf4> <http://id.loc.gov/ontologies/bibframe/title> _:fbfa906df32d345878f03c36e72b129e3b23 .
+_:fbfa906df32d345878f03c36e72b129e3b28 <http://id.loc.gov/ontologies/bibframe/mainTitle> "Oversight visit to the Far East" .
+<https://api.sinopia.io/resource/c7718302-7c8d-424d-bc61-4cb134ce4e5e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Instance> .
+_:fbfa906df32d345878f03c36e72b129e3b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/ParallelTitle> .
+<https://api.sinopia.io/resource/6ffa79a8-94a8-4d01-b5c2-b7e7ef6f0b74> <http://id.loc.gov/ontologies/bibframe/title> _:fbfa906df32d345878f03c36e72b129e3b7 .
+_:fbfa906df32d345878f03c36e72b129e3b27 <http://id.loc.gov/ontologies/bibframe/subtitle> "report to the Committee on Science, Space, and Technology, U.S.\n      House of Representatives, One Hundred First Congress, first session" .
+<https://api.sinopia.io/resource/b117b54d-ba45-4cc1-98ec-2654e93b657a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Instance> .
+<https://api.sinopia.io/resource/c7718302-7c8d-424d-bc61-4cb134ce4e5e> <http://id.loc.gov/ontologies/bibframe/note> _:fbfa906df32d345878f03c36e72b129e3b17 .
+_:fbfa906df32d345878f03c36e72b129e3b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Note> .
+<https://api.sinopia.io/resource/d04328c3-db6a-4196-ab5b-22fe95309bf4> <http://id.loc.gov/ontologies/bibframe/note> _:fbfa906df32d345878f03c36e72b129e3b22 .
+_:fbfa906df32d345878f03c36e72b129e3b25 <http://www.w3.org/2000/01/rdf-schema#label> "vi, 142 pages" .
+_:fbfa906df32d345878f03c36e72b129e3b6 <http://www.w3.org/2000/01/rdf-schema#label> "39 pages" .
+_:fbfa906df32d345878f03c36e72b129e3b13 <http://www.w3.org/2000/01/rdf-schema#label> "Item 1028-A, 1028-B (MF)" .
+_:fbfa906df32d345878f03c36e72b129e3b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Title> .
+_:fbfa906df32d345878f03c36e72b129e3b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Title> .
+_:fbfa906df32d345878f03c36e72b129e3b11 <http://id.loc.gov/ontologies/bibframe/mainTitle> "The Bedtime Sh'ma" .
+_:fbfa906df32d345878f03c36e72b129e3b21 <http://id.loc.gov/ontologies/bibframe/electronicLocator> "" .
+_:fbfa906df32d345878f03c36e72b129e3b17 <http://www.w3.org/2000/01/rdf-schema#label> "At head of title: 101st Congress, 2d session. Committee\n      print." .
+_:fbfa906df32d345878f03c36e72b129e3b9 <http://id.loc.gov/ontologies/bibframe/subtitle> "K\u0323eri\u02BCat Shema\u02BB \u02BBal ha-mit\u0323ah" .
+<https://api.sinopia.io/resource/d04328c3-db6a-4196-ab5b-22fe95309bf4> <http://id.loc.gov/ontologies/bibframe/hasItem> _:fbfa906df32d345878f03c36e72b129e3b21 .
+<https://api.sinopia.io/resource/28c01f9f-2502-4488-a144-71a31f21d0d4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Instance> .
+_:fbfa906df32d345878f03c36e72b129e3b13 <http://www.w3.org/2000/01/rdf-schema#label> "At head of title: 101st Congress, 1st session. Committee\n      print" .
+<https://api.sinopia.io/resource/c7718302-7c8d-424d-bc61-4cb134ce4e5e> <http://id.loc.gov/ontologies/bibframe/extent> _:fbfa906df32d345878f03c36e72b129e3b16 .
+_:fbfa906df32d345878f03c36e72b129e3b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Title> .
+_:fbfa906df32d345878f03c36e72b129e3b26 <http://www.w3.org/2000/01/rdf-schema#label> "Item 1025-A-1, 1025-A-2 (MF)" .
+_:fbfa906df32d345878f03c36e72b129e3b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Title> .
+_:fbfa906df32d345878f03c36e72b129e3b26 <http://www.w3.org/2000/01/rdf-schema#label> "\"October 1989.\"" .
+<https://api.sinopia.io/resource/f0ff32b0-9818-4f67-886f-894004325962> <http://id.loc.gov/ontologies/bibframe/extent> _:fbfa906df32d345878f03c36e72b129e3b25 .
+<https://api.sinopia.io/resource/c7718302-7c8d-424d-bc61-4cb134ce4e5e> <http://id.loc.gov/ontologies/bibframe/title> _:fbfa906df32d345878f03c36e72b129e3b18 .
+_:fbfa906df32d345878f03c36e72b129e3b13 <http://www.w3.org/2000/01/rdf-schema#label> "\"WMCP:101-19.\"" .
+_:fbfa906df32d345878f03c36e72b129e3b15 <http://id.loc.gov/ontologies/bibframe/mainTitle> "The Child Support Enforcement program" .
+<https://api.sinopia.io/resource/b117b54d-ba45-4cc1-98ec-2654e93b657a> <http://id.loc.gov/ontologies/bibframe/extent> _:fbfa906df32d345878f03c36e72b129e3b12 .
+<https://api.sinopia.io/resource/b117b54d-ba45-4cc1-98ec-2654e93b657a> <http://id.loc.gov/ontologies/bibframe/title> _:fbfa906df32d345878f03c36e72b129e3b15 .
+_:fbfa906df32d345878f03c36e72b129e3b26 <http://www.w3.org/2000/01/rdf-schema#label> "Shipping list no.: 90-105-P" .
+_:fbfa906df32d345878f03c36e72b129e3b20 <http://www.w3.org/2000/01/rdf-schema#label> "viii, 377 pages" .
+<https://api.sinopia.io/resource/f0ff32b0-9818-4f67-886f-894004325962> <http://id.loc.gov/ontologies/bibframe/title> _:fbfa906df32d345878f03c36e72b129e3b27 .
+_:fbfa906df32d345878f03c36e72b129e3b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Title> .
+_:fbfa906df32d345878f03c36e72b129e3b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Extent> .
+_:fbfa906df32d345878f03c36e72b129e3b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Extent> .
+_:fbfa906df32d345878f03c36e72b129e3b22 <http://www.w3.org/2000/01/rdf-schema#label> "S/N 052-003-01168-9" .
+_:fbfa906df32d345878f03c36e72b129e3b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/ParallelTitle> .
+_:fbfa906df32d345878f03c36e72b129e3b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Title> .
+_:fbfa906df32d345878f03c36e72b129e3b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Title> .
+_:fbfa906df32d345878f03c36e72b129e3b3 <http://id.loc.gov/ontologies/bibframe/subtitle> "11 \u043A\u043B\u0430\u0441\u0441\u043B\u0430\u043D \u0445\u0440\u0435\u0441\u0442\u043E\u043C\u0430\u0442\u0438\u0439" .
+_:fbfa906df32d345878f03c36e72b129e3b5 <http://id.loc.gov/ontologies/bibframe/mainTitle> "Sovremennai\uFE20a\uFE21 marii\u0306skai\uFE20a\uFE21 literatura" .
+_:fbfa906df32d345878f03c36e72b129e3b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Title> .
+_:fbfa906df32d345878f03c36e72b129e3b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/VariantTitle> .
+_:fbfa906df32d345878f03c36e72b129e3b4 <http://id.loc.gov/ontologies/bibframe/mainTitle> "\u041A\u044B\u0437\u044B\u0442\u0441\u0435 \u043C\u0430\u0440\u0438\u0439 \u043B\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440" .
+_:fbfa906df32d345878f03c36e72b129e3b10 <http://id.loc.gov/ontologies/bibframe/mainTitle> "\u05DC\u05D9\u05DC\u05D4 \u05D8\u05D5\u05D1" .
+<https://api.sinopia.io/resource/28c01f9f-2502-4488-a144-71a31f21d0d4> <http://id.loc.gov/ontologies/bibframe/note> _:fbfa906df32d345878f03c36e72b129e3b2 .
+_:fbfa906df32d345878f03c36e72b129e3b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Note> .
+_:fbfa906df32d345878f03c36e72b129e3b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/VariantTitle> .
+<https://api.sinopia.io/resource/f0ff32b0-9818-4f67-886f-894004325962> <http://id.loc.gov/ontologies/bibframe/note> _:fbfa906df32d345878f03c36e72b129e3b26 .
+_:fbfa906df32d345878f03c36e72b129e3b10 <http://id.loc.gov/ontologies/bibframe/mainTitle> "Lailah t\u0323ov" .
+_:fbfa906df32d345878f03c36e72b129e3b5 <http://id.loc.gov/ontologies/bibframe/mainTitle> "\u0421\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u0430\u044F \u043C\u0430\u0440\u0438\u0439\u0441\u043A\u0430\u044F \u043B\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430" .
+_:fbfa906df32d345878f03c36e72b129e3b23 <http://id.loc.gov/ontologies/bibframe/subtitle> "what next for municipal solid waste?" .
+<https://api.sinopia.io/resource/f0ff32b0-9818-4f67-886f-894004325962> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Instance> .
+<https://api.sinopia.io/resource/6ffa79a8-94a8-4d01-b5c2-b7e7ef6f0b74> <http://id.loc.gov/ontologies/bibframe/title> _:fbfa906df32d345878f03c36e72b129e3b11 .
+<https://api.sinopia.io/resource/d04328c3-db6a-4196-ab5b-22fe95309bf4> <http://id.loc.gov/ontologies/bibframe/extent> _:fbfa906df32d345878f03c36e72b129e3b20 .
+_:fbfa906df32d345878f03c36e72b129e3b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Note> .
+<https://api.sinopia.io/resource/28c01f9f-2502-4488-a144-71a31f21d0d4> <http://id.loc.gov/ontologies/bibframe/extent> _:fbfa906df32d345878f03c36e72b129e3b1 .
+_:fbfa906df32d345878f03c36e72b129e3b17 <http://www.w3.org/2000/01/rdf-schema#label> "Item 1009-B-1, 1009-C-1 (MF)." .
+<https://api.sinopia.io/resource/d04328c3-db6a-4196-ab5b-22fe95309bf4> <http://id.loc.gov/ontologies/bibframe/title> _:fbfa906df32d345878f03c36e72b129e3b24 .
+_:fbfa906df32d345878f03c36e72b129e3b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Extent> .
+_:fbfa906df32d345878f03c36e72b129e3b17 <http://www.w3.org/2000/01/rdf-schema#label> "\"January 1990.\"" .
+_:fbfa906df32d345878f03c36e72b129e3b14 <http://id.loc.gov/ontologies/bibframe/subtitle> "policy and practice : a report" .
+_:fbfa906df32d345878f03c36e72b129e3b9 <http://id.loc.gov/ontologies/bibframe/subtitle> "\u05E7\u05E8\u05D9\u05D0\u05EA \u05E9\u05DE\u05E2 \u05E2\u05DC \u05D4\u05DE\u05D8\u05D4" .
+_:fbfa906df32d345878f03c36e72b129e3b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Title> .
+_:fbfa906df32d345878f03c36e72b129e3b1 <http://www.w3.org/2000/01/rdf-schema#label> "volumes" .
+<https://api.sinopia.io/resource/28c01f9f-2502-4488-a144-71a31f21d0d4> <http://id.loc.gov/ontologies/bibframe/title> _:fbfa906df32d345878f03c36e72b129e3b4 .
+<https://api.sinopia.io/resource/6ffa79a8-94a8-4d01-b5c2-b7e7ef6f0b74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Instance> .
+<https://api.sinopia.io/resource/b117b54d-ba45-4cc1-98ec-2654e93b657a> <http://id.loc.gov/ontologies/bibframe/title> _:fbfa906df32d345878f03c36e72b129e3b14 .
+<https://api.sinopia.io/resource/d04328c3-db6a-4196-ab5b-22fe95309bf4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Instance> .
+<https://api.sinopia.io/resource/6ffa79a8-94a8-4d01-b5c2-b7e7ef6f0b74> <http://id.loc.gov/ontologies/bibframe/title> _:fbfa906df32d345878f03c36e72b129e3b8 .
+<https://api.sinopia.io/resource/f0ff32b0-9818-4f67-886f-894004325962> <http://id.loc.gov/ontologies/bibframe/title> _:fbfa906df32d345878f03c36e72b129e3b28 .
+_:fbfa906df32d345878f03c36e72b129e3b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Extent> .
+_:fbfa906df32d345878f03c36e72b129e3b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Title> .
+_:fbfa906df32d345878f03c36e72b129e3b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Extent> .
+_:fbfa906df32d345878f03c36e72b129e3b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Title> .
+_:fbfa906df32d345878f03c36e72b129e3b12 <http://www.w3.org/2000/01/rdf-schema#label> "vii, 175 pages" .
+_:fbfa906df32d345878f03c36e72b129e3b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Item> .
+<https://api.sinopia.io/resource/b117b54d-ba45-4cc1-98ec-2654e93b657a> <http://id.loc.gov/ontologies/bibframe/note> _:fbfa906df32d345878f03c36e72b129e3b13 .
+<https://api.sinopia.io/resource/6ffa79a8-94a8-4d01-b5c2-b7e7ef6f0b74> <http://id.loc.gov/ontologies/bibframe/extent> _:fbfa906df32d345878f03c36e72b129e3b6 .
+_:fbfa906df32d345878f03c36e72b129e3b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Note> .
+

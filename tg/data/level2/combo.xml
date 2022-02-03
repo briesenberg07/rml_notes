@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdam="http://rdaregistry.info/Elements/m/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description xmlns:rdax="https://doi.org/10.6069/uwlib.55.d.4#"
+    rdf:about="https://api.sinopia.io/resource/28c01f9f-2502-4488-a144-71a31f21d0d4">
+    <rdam:P30156 xml:lang="chm">Кызытсе марий литератур</rdam:P30156>
+    <rdam:P30182 xml:lang="eng">volumes</rdam:P30182>
+    <rdax:hasLcClassificationPartA xml:lang="zxx">PH821</rdax:hasLcClassificationPartA>
+    <rdax:hasLcClassificationPartB xml:lang="zxx">.K95 1994</rdax:hasLcClassificationPartB>
+    <rdam:P30128 xml:lang="rus">Современная марийская литература</rdam:P30128>
+    <rdam:P30137 xml:lang="chm">1. кн. Прозо -- Кокымшо книга. Поэзий, драматургий.</rdam:P30137>
+    <rdam:P30142 xml:lang="chm">11 класслан хрестоматий</rdam:P30142>
+    <rdam:P30128 xml:lang="rus">Sovremennai︠a︡ mariĭskai︠a︡ literatura</rdam:P30128>
+  </rdf:Description>
+  <rdf:Description xmlns:rdax="https://doi.org/10.6069/uwlib.55.d.4#"
+    rdf:about="https://api.sinopia.io/resource/6ffa79a8-94a8-4d01-b5c2-b7e7ef6f0b74">
+    <rdam:P30182 xml:lang="eng">39 pages</rdam:P30182>
+    <rdam:P30151 xml:lang="heb">Ḳeriʼat Shemaʻ ʻal ha-miṭah</rdam:P30151>
+    <rdax:hasLcClassificationPartA xml:lang="eng">BM670.B43</rdax:hasLcClassificationPartA>
+    <rdam:P30203 xml:lang="heb">לילה טוב</rdam:P30203>
+    <rdam:P30156 xml:lang="eng">The Bedtime Sh'ma</rdam:P30156>
+    <rdam:P30151 xml:lang="heb">קריאת שמע על המטה</rdam:P30151>
+    <rdam:P30203 xml:lang="heb">Lailah ṭov</rdam:P30203>
+    <rdam:P30142 xml:lang="eng">a good night book</rdam:P30142>
+    <rdam:P30128 xml:lang="heb">לילה טוב : קריאת שמע על המטה</rdam:P30128>
+    <rdax:hasLcClassificationPartB xml:lang="eng">G47 2007</rdax:hasLcClassificationPartB>
+    <rdam:P30128 xml:lang="heb">Lailah ṭov : Ḳeriʼat Shemaʻ ʻal ha-miṭah</rdam:P30128>
+  </rdf:Description>
+  <rdf:Description xmlns:rdax="https://doi.org/10.6069/uwlib.55.d.4#"
+    rdf:about="https://api.sinopia.io/resource/b117b54d-ba45-4cc1-98ec-2654e93b657a">
+    <rdax:hasLcClassificationPartB xml:lang="eng">.S55 1989</rdax:hasLcClassificationPartB>
+    <rdam:P30137 xml:lang="eng">Item 1028-A, 1028-B (MF)</rdam:P30137>
+    <rdam:P30137 xml:lang="eng">"December 5, 1989."</rdam:P30137>
+    <rdam:P30137 xml:lang="eng">"WMCP:101-19."</rdam:P30137>
+    <rdam:P30137 xml:lang="eng">Shipping list no.: 90-079-P</rdam:P30137>
+    <rdam:P30137 xml:lang="eng">At head of title: 101st Congress, 1st session. Committee
+      print</rdam:P30137>
+    <rdax:hasLcClassificationPartA xml:lang="eng">HV742</rdax:hasLcClassificationPartA>
+    <rdam:P30156 xml:lang="eng">The Child Support Enforcement program</rdam:P30156>
+    <rdam:P30142 xml:lang="eng">policy and practice : a report</rdam:P30142>
+    <rdam:P30182 xml:lang="eng">vii, 175 pages</rdam:P30182>
+  </rdf:Description>
+  <rdf:Description xmlns:rdax="https://doi.org/10.6069/uwlib.55.d.4#"
+    rdf:about="https://api.sinopia.io/resource/c7718302-7c8d-424d-bc61-4cb134ce4e5e">
+    <rdam:P30137 xml:lang="eng">Distributed to some depository libraries in
+      microfiche.</rdam:P30137>
+    <rdam:P30137 xml:lang="eng">Shipping list no.: 90-107-P.</rdam:P30137>
+    <rdam:P30137 xml:lang="eng">At head of title: 101st Congress, 2d session. Committee
+      print.</rdam:P30137>
+    <rdam:P30137 xml:lang="eng">"January 1990."</rdam:P30137>
+    <rdam:P30182 xml:lang="eng">v, 28 pages</rdam:P30182>
+    <rdam:P30142 xml:lang="eng">turning a bad deal into a fair deal : a majority staff report of the
+      Special Committee on Aging, United States Senate.</rdam:P30142>
+    <rdax:hasLcClassificationPartA xml:lang="eng">HD9666.5</rdax:hasLcClassificationPartA>
+    <rdam:P30156 xml:lang="eng">Skyrocketing prescription drug prices</rdam:P30156>
+    <rdam:P30137 xml:lang="eng">"Serial no. 101-F."</rdam:P30137>
+    <rdam:P30137 xml:lang="eng">Item 1009-B-1, 1009-C-1 (MF).</rdam:P30137>
+    <rdax:hasLcClassificationPartB xml:lang="eng">.U65 1990</rdax:hasLcClassificationPartB>
+  </rdf:Description>
+  <rdf:Description xmlns:rdax="https://doi.org/10.6069/uwlib.55.d.4#"
+    rdf:about="https://api.sinopia.io/resource/d04328c3-db6a-4196-ab5b-22fe95309bf4">
+    <rdax:hasLcClassificationPartA xml:lang="eng">TD788</rdax:hasLcClassificationPartA>
+    <rdax:hasLcClassificationPartB xml:lang="eng">F33 1989</rdax:hasLcClassificationPartB>
+    <rdam:P30182 xml:lang="eng">viii, 377 pages</rdam:P30182>
+    <rdam:P30137 xml:lang="eng">"October 1989"--Page 4 of cover</rdam:P30137>
+    <rdam:P30137 xml:lang="eng">S/N 052-003-01168-9</rdam:P30137>
+    <rdam:P30137 xml:lang="eng">Shipping list no.: 1989-0742-P</rdam:P30137>
+    <rdam:P30137 xml:lang="eng">"OTA-O-424"--Page 4 of cover</rdam:P30137>
+    <rdam:P30156 xml:lang="eng">Facing America's trash</rdam:P30156>
+    <rdam:P30142 xml:lang="eng">what next for municipal solid waste?</rdam:P30142>
+    <rdam:P30154 rdf:resource="http://purl.access.gpo.gov/GPO/LPS27253"/>
+  </rdf:Description>
+  <rdf:Description xmlns:rdax="https://doi.org/10.6069/uwlib.55.d.4#"
+    rdf:about="https://api.sinopia.io/resource/f0ff32b0-9818-4f67-886f-894004325962">
+    <rdam:P30137 xml:lang="eng">Item 1025-A-1, 1025-A-2 (MF)</rdam:P30137>
+    <rdam:P30156 xml:lang="eng">Oversight visit to the Far East</rdam:P30156>
+    <rdam:P30137 xml:lang="eng">"October 1989."</rdam:P30137>
+    <rdax:hasLcClassificationPartA xml:lang="eng">Q127.E26</rdax:hasLcClassificationPartA>
+    <rdax:hasLcClassificationPartB xml:lang="eng">O94 1989</rdax:hasLcClassificationPartB>
+    <rdam:P30137 xml:lang="eng">Shipping list no.: 90-105-P</rdam:P30137>
+    <rdam:P30137 xml:lang="eng">"Serial H."</rdam:P30137>
+    <rdam:P30182 xml:lang="eng">vi, 142 pages</rdam:P30182>
+    <rdam:P30137 xml:lang="eng">At head ot title: Committee print</rdam:P30137>
+    <rdam:P30142 xml:lang="eng">report to the Committee on Science, Space, and Technology, U.S.
+      House of Representatives, One Hundred First Congress, first session</rdam:P30142>
+  </rdf:Description>
+</rdf:RDF>
